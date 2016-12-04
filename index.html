@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>Single Page App</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/public/builds/css/styles.css">		
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="home">  <!-- to underline home link   -->
+  <div class="mainWrapper">  <!--  to force footer to bottom of short pages  -->  
+    <div class="wrapper">      <!--  to force footer to bottom of short pages  -->  	
+
+    <!--  top   -->  	
+    <div id="top">
+        <div class="container">
+             <!--  skip links   -->  	
+            <div id="skip">
+                <a href="#content" onClick="$('#mainContent').focus(
+                {outline:none;})">Skip to content</a>
+            </div>
+             <!--  end of skip links   -->  	
+        </div>
+    </div>
+    <!-- end of top   -->  
+    <!--  brandbanner   -->  	
+    <div id="brandbanner">
+	    <div class="container">
+	        <a href="#">
+	            <img src="" alt="logo" width="152" height="23">
+	        </a>
+	    </div>
+	    <!--  end of div container   -->  	
+	</div>
+	 <!--  end of div brandbanner   -->  		  	
+
+	<header id="header" class="clearfix" role="banner">
+        <div class="container">
+            <div class="row">
+            	<!--  mainrealestate   -->  	
+                <div class="col-md-8" id="mainrealestate">
+                    <!--  logo   -->  	
+                    <div id="logo" class="clearfix">
+                        <a href="#">
+                            <img class="img-responsive" src="" alt="logo"/>
+                        </a>
+                    </div>
+                    <!--  end of div logo   -->
+                    <!--  brandz   -->  	  	
+                    <div id="brandz">
+                        <div id="brandz-name">
+                            <a href="/">
+                                <span id="firstName">SiteName</span>
+                            </a>
+                        </div>  <!--  end of div brandz-name   -->  	
+                        <div id="saysomething">
+                            <a href="/">
+                                <span id="secondName">something about something</span>
+                            </a>
+                        </div>  <!--  end of div saysomething   -->  	
+                    </div>
+                    <!--  end of div brandz   -->  	
+                </div>  
+                <!--  end of div mainrealestate    -->  	
+            </div>
+        </div>
+    </header>
+    <!--  end of header   -->  
+
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+        <div class="container">
+            <div class="navbar navbar-default">
+                <!--  panckake nav   -->  	
+                <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="menu-text">Menu</span>
+                </button>
+                <!--  end of panckake nav   -->  	
+                <div class="navbar-collapse collapse">
+                    <div role="navigation">
+                        <div id="primary-nav">
+                            <ul class="nav navbar-nav" aria-label="primary navigation">
+                                <li id="nav-home">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li id="nav-one">
+                                    <a href="#">Right Sidebar</a>
+                                </li>
+                                <li id="nav-two">
+                                    <a href="#">Left Sidebar</a>
+                                </li>
+                                <li id="nav-three">
+                                    <a href="#">Two Sidebars</a>
+                                </li>
+                                <li id="nav-four">
+                                    <a href="#">No Sidebars</a>
+                                </li>
+                                <li id="nav-five">
+                                    <a href="#">Wide</a>
+                                </li>
+                                <li id="nav-six">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Dropdown <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Submenu 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu 3</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  end of div primary-nav   -->  	
+                    </div>
+                </div>
+                <!--  end of div navbar-collapse   -->  	
+            </div>
+            <!--  end of div navbar-default   -->  	
+        </div>
+        <!--  end of div container   -->  	
+    </div>
+    <!--  end of div mainmenu   -->  	
+
+	<div id="mainContent" class="container" role="main" tabindex="0">
+			<div class="row">
+				<div class="col-md-12" id="maintop" role="main">
+					<!--  featureBanner   -->  	
+					<section id="featureBanner">
+						<img class="img-responsive" alt="feature banner" 
+						src=""/>
+						<figure class="bannerCaption">
+							<h2>Hello MBZ,</h2>
+							<p>Alright, This is an Multih3le API SPA. I'm going to serve
+							RESTful JSON data from Several API's, do something and try out
+							another one, and use Angular to go from one page API to another.
+							Maybe, change the Title, Paragraph, Car dealer logo and name, and
+							of course data from each API.
+							</p>
+						</figure>  <!--  end of bannerCaption   -->  		
+					</section>   
+					<!--  end of sec featureBanner   -->
+					<!--  endofTask   -->  	
+					<div class="endofTask">  
+						<h2 class="headline">After Task completion</h2>
+                    	<p>Please zip completed task with your name_surname_date.zip 
+                       	   and upload it to www.wetransfer.com
+                    	</p>	
+					</div>
+					<!--  end of div endofTask   -->  	  
+				</div>
+				<!--  end of div maintop   -->  		
+			
+				<div class="col-lg-12" id="mainbottom">
+					<!--  apiarea   -->  	
+					<section class="apiarea">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						   quis nostrud exercitation ullamco laboris nisi ut aliquip
+						   ex ea commodo
+					    </p>
+					    <p>consequat. Duis aute irure dolor in reprehenderit in
+						   voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						   proident, sunt in culpa qui officia deserunt mollit anim 
+						   id est laborum.
+					    </p>
+					</section>  
+					<!--  end of sec apiarea   -->  			
+				</div>  <!--  end of div mainbottom   -->  	
+			</div>  
+			<!--  End of row  -->  
+	  	</div>  
+	  	<!--  end of div mainContent   -->
+	  </div>  
+      <!--  end of div wrapper   -->
+    </div>
+    <!--  end of div mainWrapper   -->
+
+   <!-- BEGIN footer -->
+    <footer id="mainFooter" class="clearfix footer" role="contentinfo">
+        <section id="topfoot" class="container">
+            <div class="row" id="footer-content">
+                <div id="moreAboutUs" class="col-xs-12 col-sm-6 col-sm-push-3">
+                    <h3>More about us</h3>
+                    <p>Class aptent taciti sociosqu ad litora torquent per conubia
+                       nostra, per inceptos himenaeos. Aenean imperdiet lobortis libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vitae tortor ligula, quis laoreet ante. Phasellus in turpis ac elit consectetur viverra. Praesent nec massa vitae dui facilisis venenatis et at nisi.
+                    </p>
+                </div>  
+                <!--  end of div More about ous   -->  	
+                <div id="relatedLinks" class="col-xs-12 col-sm-3 col-sm-push-3">
+                    <h3>Related Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Particularly relevant</a>
+                        </li>
+                        <li>
+                            <a href="#">Related and really quite interesting</a>
+                        </li>
+                        <li>
+                            <a href="#">Useful in certain circumstances</a>
+                        </li>
+                        <li>
+                            <a href="#">Purely tangential information</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--  end of div relatedLinks   -->  	
+                <div id="socialIcons" class="col-xs-12 col-sm-3 col-sm-pull-9">
+                    <h3>Connect with us</h3>
+                    <a href="http://facebook.com">
+                       <img alt="Facebook" src="images/facebook.png"/>
+                    </a>
+                    <a href="http://twitter.com">
+                       <img alt="Twitter" src="images/twitter.png"/>
+                    </a>
+                    <a href="http://youtube.com">
+                       <img alt="YouTube" src="images/youtube.png"/>
+                    </a>
+                </div>
+                <!--  end of div socialIcons   -->  	
+            </div>
+        </section>
+        <!--  end of sec topfoot   -->  
+
+        <!--  botfoot   -->  	
+        <section id="botfoot">
+            <div class="container">
+                <div class="row">
+                    <div id="bottomlogo" class="col-xs-6 col-sm-2">
+                        <a href="#">
+                            <img src="" alt="footer logo" width="105" height="49"/>
+                        </a>
+                    </div>
+                     <!--  end of div bottomLogo   -->  	
+                    <div id="bottom-text" class="col-xs-6 col-sm-6 col-sm-push-4">
+                        <ul>
+                            <li class="home">
+                                <a href="http://www.stanford.edu">SU Home</a>
+                            </li>
+                            
+                            <li class="terms">
+                                <a href="#">Terms of Use</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <!-- .bottom-text end -->
+                    <div class="clear"></div>
+                    <p class="copyright vcard col-sm-10">
+                        &copy;<span class="fn org">Stanford University</span>
+                        .&nbsp;
+                        <span class="braggRight">
+                            <span class="sl">stefanoL.</span>,
+                            <span class="city">London</span>,
+                            <span class="year">2016</span>.
+                        </span>
+                        
+                       
+                    </p>
+                </div>
+                <!-- .row end -->
+            </div>
+            <!-- .container end -->
+        </section>
+        <!--  end of sec botfoot   -->  	
+    
+    </footer>  <!--  end of mainFooter   -->  	 
+    <!-- END footer -->  
+
+ <script src="/bower_components/jquery/dist/jquery.js"></script>
+ <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+ <script src="/public/builds/js/scripts.min.js"></script>  	
+</body>
+</html>
