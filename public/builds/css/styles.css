@@ -1,4 +1,345 @@
-/* line 3, ../../sass/styles.scss */
+/* adobe color generator
+=======================  */
+/* to extend primary font
+-------------------------  */
+@import url("https://fonts.googleapis.com/css?family=Nobile");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+/* line 12, ../../sass/_variables.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 36px;
+  line-height: 140%;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/*  imports & applies Eric Meyer's Reset.css
+--------------------------------------------     */
+/* line 5, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a,
+body #mainWrapper #wrapper #top #skip a:active,
+body #mainWrapper #wrapper #top #skip a:visited,
+body #mainWrapper #wrapper #top #skip a:hover, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img, body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip a:hover img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* grabs google fonts
+--------------------------------------------     */
+/* sets primary & secondary fonts
+----------------------------------------------   */
+/* line 25, ../../sass/_base.scss */
+h1 {
+  font-size: 36px;
+  line-height: 140%;
+}
+
+/* line 32, ../../sass/_base.scss */
+p {
+  font-family: "Merriweather", serif, arial;
+  font-weight: normal;
+  overflow: hidden;
+  *zoom: 1;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+/* line 42, ../../sass/_base.scss */
+a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  -moz-animation: "slide-down 5s 3";
+  -webkit-animation: "slide-down 5s 3";
+  animation: "slide-down 5s 3";
+  color: #2660C9;
+}
+/* line 48, ../../sass/_base.scss */
+a:focus, body #mainWrapper #wrapper #top #skip a:focus:active, body #mainWrapper #wrapper #top #skip a:focus:visited, body #mainWrapper #wrapper #top #skip a:focus:hover {
+  outline: 0;
+}
+/* line 51, ../../sass/_base.scss */
+a:active, body #mainWrapper #wrapper #top #skip a:active {
+  outline: 0;
+}
+/* line 54, ../../sass/_base.scss */
+a:hover, body #mainWrapper #wrapper #top #skip a:hover {
+  color: #1e4c9e;
+  outline: 0;
+}
+
+/* Compass Mixin
+   Set the specified bg-color and it calculates/outputs a 
+   dark-or-light contrasted text color.
+----------------------------------------------------------------     */
+/* default-border-radius -> border-radius
+----------------------------------------------------   */
+/* single-text-shadow-defaults
+--------------------------------------------------      */
+/*  red
+=========================================                         */
+/* line 26, ../../sass/_mixins.scss */
+.button-red {
+  color: #467bdc;
+  background-color: #F1F1F0;
+  border-color: #719ae4;
+  text-shadow: 0px 0px 1px rgba(99, 99, 99, 0.7);
+}
+/* line 32, ../../sass/_mixins.scss */
+.button-red:hover {
+  color: #2256b4;
+  background-color: #2052ab;
+  border-color: #1e4c9e;
+}
+/* line 37, ../../sass/_mixins.scss */
+.button-red:focus {
+  border: none;
+  outline: none;
+  text-shadow: 0px 0px 1px rgba(99, 99, 99, 0.7);
+}
+
+/* main button
+==========================================                          */
+/* line 48, ../../sass/_mixins.scss */
+.botone, .button-red {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-family: "Merriweather", serif, arial;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  -webkit-appearance: button;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+/* animations/keyframes
+----------------------------------*/
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@-o-keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+@keyframes slide-down {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+}
+/*  Main body layout
+------------------------------------------------    */
+/* line 4, ../../sass/_mainlayout.scss */
 body {
-  background-color: #000;
+  height: 100%;
+  font-family: "Merriweather", serif, arial;
+  background-color: white;
+  color: #45464A;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0;
+}
+/* line 12, ../../sass/_mainlayout.scss */
+body #mainWrapper {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+/* line 15, ../../sass/_mainlayout.scss */
+body #mainWrapper #wrapper {
+  overflow: visible;
+  padding-bottom: 120px;
+}
+/* line 18, ../../sass/_mainlayout.scss */
+body #mainWrapper #wrapper #top {
+  background-color: #060A0C;
+  color: #060A0C;
+}
+/* line 22, ../../sass/_mainlayout.scss */
+body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
+  position: absolute;
+  left: 0;
+  top: -300px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/*
+-----------------------------------
+
+	*** Styles.scss ***
+	
+-----------------------------------      */
+/*  blue-brand-top-stripe 
+------------------------------------     */
+/* line 23, ../../sass/styles.scss */
+#brandbanner {
+  background-color: #2b4857;
+  height: 25px;
+  width: 100%;
+}
+
+/* header section
+--------------------------------------    */
+/* line 32, ../../sass/styles.scss */
+header#header {
+  padding: 1em 0;
+  background: white;
+  border-bottom: 1px solid #060A0C;
+}
+/* line 38, ../../sass/styles.scss */
+header#header #mainrealestate #logo {
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 44, ../../sass/styles.scss */
+header#header #mainrealestate #brandz {
+  margin: 0 1em 0 5em;
+  display: inline-block;
+  height: 88px;
+  vertical-align: middle;
+}
+/* line 49, ../../sass/styles.scss */
+header#header #mainrealestate #brandz h1 {
+  margin-bottom: .3em;
+}
+/* line 52, ../../sass/styles.scss */
+header#header #mainrealestate #brandz h3 {
+  margin-bottom: .2em;
+  text-align: center;
+}
+
+/* line 60, ../../sass/styles.scss */
+#mainmenu {
+  max-height: 53px;
+  background: white;
+}
+
+/* Rules for using icons as black on a light background. */
+/* line 72, ../../sass/styles.scss */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 36px;
+  line-height: 100%;
+}
+/* line 76, ../../sass/styles.scss */
+.material-icons.md-dark:hover {
+  color: rgba(40, 130, 111, 0.92);
+}
+
+/* line 83, ../../sass/styles.scss */
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+/* line 87, ../../sass/styles.scss */
+.material-icons.md-light {
+  color: white;
+}
+
+/* line 88, ../../sass/styles.scss */
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
 }

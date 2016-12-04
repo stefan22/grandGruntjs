@@ -2,12 +2,14 @@
 <html lang="">
 <head>
 	<meta charset="utf-8">
-	<title>Single Page App</title>
+	<title>Greenlight Power</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css?rel=1480838886672">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/public/builds/css/styles.css?rel=1480838886673">		
+	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css?rel=1480884560505">
+	<!-- google material icons   -->  	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="public/builds/css/styles.css?rel=1480884560506">		
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -15,27 +17,24 @@
 	<![endif]-->
 </head>
 <body class="home">  <!-- to underline home link   -->
-  <div class="mainWrapper">  <!--  to force footer to bottom of short pages  -->  
-    <div class="wrapper">      <!--  to force footer to bottom of short pages  -->  	
-
-    <!--  top   -->  	
-    <div id="top">
+  <div id="mainWrapper">  <!--  to force footer to bottom of short pages  -->  
+    <div id="wrapper">      <!--  to force footer to bottom of short pages  --> 
+      <!--  top   -->  	
+      <div id="top">
         <div class="container">
              <!--  skip links   -->  	
             <div id="skip">
-                <a href="#content" onClick="$('#mainContent').focus(
-                {outline:none;})">Skip to content</a>
+                <a href="#mainContent" onClick="$('#mainContent').focus(
+                )">Skip to content</a>
             </div>
              <!--  end of skip links   -->  	
         </div>
-    </div>
-    <!-- end of top   -->  
-    <!--  brandbanner   -->  	
-    <div id="brandbanner">
+      </div>
+      <!-- end of top   -->  
+      <!--  brandbanner   -->  	
+      <div id="brandbanner">
 	    <div class="container">
-	        <a href="#">
-	            <img src="" alt="logo" width="152" height="23">
-	        </a>
+	         <!--  blue stripe all across   -->      
 	    </div>
 	    <!--  end of div container   -->  	
 	</div>
@@ -45,26 +44,19 @@
         <div class="container">
             <div class="row">
             	<!--  mainrealestate   -->  	
-                <div class="col-md-8" id="mainrealestate">
+                <div class="col-md-12" id="mainrealestate">
                     <!--  logo   -->  	
                     <div id="logo" class="clearfix">
                         <a href="#">
-                            <img class="img-responsive" src="" alt="logo"/>
+                            <img class="img-responsive" src="public/builds/assets/images/nicegreenlogo.png" alt="GPower" style="width: 100%; 
+                            max-width: 300px; height:auto;display: block;">
                         </a>
                     </div>
                     <!--  end of div logo   -->
                     <!--  brandz   -->  	  	
                     <div id="brandz">
-                        <div id="brandz-name">
-                            <a href="/">
-                                <span id="firstName">SiteName</span>
-                            </a>
-                        </div>  <!--  end of div brandz-name   -->  	
-                        <div id="saysomething">
-                            <a href="/">
-                                <span id="secondName">something about something</span>
-                            </a>
-                        </div>  <!--  end of div saysomething   -->  	
+                            <h1>Our Platform is just the beginning</h1>
+                            <h3>Introducing, Greenlight Power</h3>	
                     </div>
                     <!--  end of div brandz   -->  	
                 </div>  
@@ -144,7 +136,7 @@
 					<!--  featureBanner   -->  	
 					<section id="featureBanner">
 						<img class="img-responsive" alt="feature banner" 
-						src=""/>
+						src="public/builds/assets/images/banner_bg.png"/>
 						<figure class="bannerCaption">
 							<h2>Hello MBZ,</h2>
 							<p>Alright, This is an Multih3le API SPA. I'm going to serve
@@ -197,14 +189,14 @@
         <section id="topfoot" class="container">
             <div class="row" id="footer-content">
                 <div id="moreAboutUs" class="col-xs-12 col-sm-6 col-sm-push-3">
-                    <h3>More about us</h3>
+                    <h3> <i class="material-icons md-dark">face</i> More about us</h3>
                     <p>Class aptent taciti sociosqu ad litora torquent per conubia
                        nostra, per inceptos himenaeos. Aenean imperdiet lobortis libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vitae tortor ligula, quis laoreet ante. Phasellus in turpis ac elit consectetur viverra. Praesent nec massa vitae dui facilisis venenatis et at nisi.
                     </p>
                 </div>  
                 <!--  end of div More about ous   -->  	
                 <div id="relatedLinks" class="col-xs-12 col-sm-3 col-sm-push-3">
-                    <h3>Related Links</h3>
+                    <h3><i class="material-icons">cast_connected</i> Related Links</h3>
                     <ul>
                         <li>
                             <a href="#">Particularly relevant</a>
@@ -224,13 +216,14 @@
                 <div id="socialIcons" class="col-xs-12 col-sm-3 col-sm-pull-9">
                     <h3>Connect with us</h3>
                     <a href="http://facebook.com">
-                       <img alt="Facebook" src="images/facebook.png"/>
+                    
+                     
                     </a>
                     <a href="http://twitter.com">
-                       <img alt="Twitter" src="images/twitter.png"/>
+                      <i class="material-icons">launch</i>
                     </a>
                     <a href="http://youtube.com">
-                       <img alt="YouTube" src="images/youtube.png"/>
+                        <i class="material-icons">touch_app</i>
                     </a>
                 </div>
                 <!--  end of div socialIcons   -->  	
@@ -247,26 +240,16 @@
                             <img src="" alt="footer logo" width="105" height="49"/>
                         </a>
                     </div>
-                     <!--  end of div bottomLogo   -->  	
-                    <div id="bottom-text" class="col-xs-6 col-sm-6 col-sm-push-4">
-                        <ul>
-                            <li class="home">
-                                <a href="http://www.stanford.edu">SU Home</a>
-                            </li>
-                            
-                            <li class="terms">
-                                <a href="#">Terms of Use</a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                    <!-- .bottom-text end -->
+                    <!--  end of div bottomLogo   -->  	
+                   
                     <div class="clear"></div>
                     <p class="copyright vcard col-sm-10">
-                        &copy;<span class="fn org">Stanford University</span>
-                        .&nbsp;
-                        <span class="braggRight">
-                            <span class="sl">stefanoL.</span>,
+                        &copy;<span class="myself"> stefanoL.</span>
+                        &nbsp;
+                        <span class="braggSection">
+                           <a href="https://github.com/stefan22" 
+                            target="_blank" class="sl">github.com/stefan22
+                           </a>,
                             <span class="city">London</span>,
                             <span class="year">2016</span>.
                         </span>
@@ -283,8 +266,8 @@
     </footer>  <!--  end of mainFooter   -->  	 
     <!-- END footer -->  
 
- <script src="/bower_components/jquery/dist/jquery.js?rel=1480838886673"></script>
- <script src="/bower_components/bootstrap/dist/js/bootstrap.js?rel=1480838886673"></script>
- <script src="/public/builds/js/scripts.min.js?rel=1480838886673"></script>  	
+ <script src="/bower_components/jquery/dist/jquery.js?rel=1480884560506"></script>
+ <script src="/bower_components/bootstrap/dist/js/bootstrap.js?rel=1480884560506"></script>
+ <script src="/public/builds/js/scripts.min.js?rel=1480884560506"></script>  	
 </body>
 </html>
