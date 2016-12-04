@@ -9,6 +9,7 @@
 
 ### new html startup-page for workfolder
 > this time to include sass ready files.
+> initiated git but no repo to be created 
 
 - removed angular(for this project), and suzy(forever)
 - updated Gruntfile.js, package.json,bower.json,config.rb and Gemfile 

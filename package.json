@@ -1,15 +1,15 @@
-{
+{                    
   "repository": {
   "type": "git", 
-                  //initiated git but no repo to be created
+                  
   "url": "git+https://github.com/stefan22/aspireTest.git"
   },
 
   "bugs": {   
-            //initiated git but no repo to be created
+            
   "url": "https://github.com/stefan22/aspireTest/issues"
   },
-              //initiated git but no repo to be created 
+              
   "homepage": "https://github.com/stefan22/aspireTest#readme",
   "name": "aspireTest",
   "version": "1.0.0",
