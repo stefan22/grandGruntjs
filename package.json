@@ -2,15 +2,15 @@
   "repository": {
   "type": "git", 
                   
-  "url": "git+https://github.com/stefan22/aspireTest.git"
+  "url": "git+https://github.com/stefan22/grandGruntjs.git"
   },
 
   "bugs": {   
             
-  "url": "https://github.com/stefan22/aspireTest/issues"
+  "url": "https://github.com/stefan22/grandGruntjs/issues"
   },
               
-  "homepage": "https://github.com/stefan22/aspireTest#readme",
+  "homepage": "https://github.com/stefan22/grandGruntjs#readme",
   "name": "aspireTest",
   "version": "1.0.0",
   "description": "aspireTest",
