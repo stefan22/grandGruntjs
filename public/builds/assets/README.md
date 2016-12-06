@@ -1,15 +1,10 @@
-# aspireTest
+### grandGruntjs, is a SPA using bootstrap, sass, npm, bower, grunt, package.json, and JavaScript
 
 ### dest folder is => public/builds/
 
-- Not using normalize.css, instead Compass Reset module (Eric Meyers)
-- Also using a Gruntfile that I've built for my own projects in the past
-- Sass/Compass install with bundler.
-- task: to build a responsive single page with provided assets
-
 ### new html startup-page for workfolder
 > this time to include sass ready files.
-> initiated git but no repo to be created 
+
 
 - removed angular(for this project), and suzy(forever)
 - updated Gruntfile.js, package.json,bower.json,config.rb and Gemfile 

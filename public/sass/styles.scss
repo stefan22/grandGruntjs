@@ -7,7 +7,7 @@
 @import "mainlayout";
 @import "navlayout";
 @import "compass/css3/animation";
-
+@import "maincontent";
 
 /*
 -----------------------------------
@@ -18,50 +18,9 @@
 
 
 
-/*  blue-brand-top-stripe 
-------------------------------------     */
-#brandbanner {
-	background-color: lighten($darktoBlk,22); 
-	height: 25px;
-	width: 100%;
-}//brandbanner
 
 
-/* header section
---------------------------------------    */
-header#header {
-	padding:1em 0;
-	background: lighten($lightoWht,10);
-    border-bottom: 1px solid $darktoBlk;
-    
-	#mainrealestate {
-		#logo {
-			max-width: 300px;
-			display: inline-block;
-			vertical-align: middle;
-			
-		}//logo
-		#brandz {
-			margin:0 1em 0 5em;
-			display: inline-block;
-			height: 88px;
-			vertical-align: middle;
-			h1 {
-				margin-bottom: .3em;
-			}//h1
-			h3 {
-				margin-bottom: .2em;
-				text-align: center;
-			}//h3
-		}//brandz
-	}//mainrealestate
-}//header
 
-#mainmenu {
-	
-	max-height: 53px;
-	background:lighten($lightoWht,7);
-}
 
 
 

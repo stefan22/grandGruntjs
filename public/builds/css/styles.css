@@ -4,10 +4,20 @@
 -------------------------  */
 @import url("https://fonts.googleapis.com/css?family=Nobile");
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
-/* line 12, ../../sass/_variables.scss */
+/* line 13, ../../sass/_variables.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-size: 36px;
-  line-height: 140%;
+  font-family: 'Nobile',serif, arial;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 22, ../../sass/_variables.scss */
+p {
+  font-family: 'Merriweather', serif, arial;
+  font-weight: normal;
   overflow: hidden;
   *zoom: 1;
 }
@@ -86,43 +96,73 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 --------------------------------------------     */
 /* sets primary & secondary fonts
 ----------------------------------------------   */
-/* line 25, ../../sass/_base.scss */
+/* line 22, ../../sass/_base.scss */
 h1 {
   font-size: 36px;
   line-height: 140%;
+  color: #060A0C;
 }
 
-/* line 32, ../../sass/_base.scss */
+/* line 30, ../../sass/_base.scss */
+h2 {
+  font-size: 32px;
+  line-height: 140%;
+  color: #17262e;
+}
+
+/* line 37, ../../sass/_base.scss */
+h3 {
+  font-size: 28px;
+  line-height: 130%;
+  color: #75860b;
+}
+
+/* line 44, ../../sass/_base.scss */
+h4 {
+  font-size: 24px;
+  line-height: 130%;
+}
+
+/* line 50, ../../sass/_base.scss */
+h5 {
+  font-size: 22px;
+  line-height: 120%;
+}
+
+/* line 56, ../../sass/_base.scss */
+h6 {
+  font-size: 20px;
+  line-height: 120%;
+}
+
+/* line 63, ../../sass/_base.scss */
 p {
-  font-family: "Merriweather", serif, arial;
-  font-weight: normal;
-  overflow: hidden;
-  *zoom: 1;
   font-size: 15px;
   line-height: 150%;
 }
 
-/* line 42, ../../sass/_base.scss */
+/* line 71, ../../sass/_base.scss */
 a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
   text-decoration: none;
   cursor: pointer;
   background: transparent;
+  font-size: 15px;
   -moz-animation: "slide-down 5s 3";
   -webkit-animation: "slide-down 5s 3";
   animation: "slide-down 5s 3";
-  color: #2660C9;
+  color: #606e09;
 }
-/* line 48, ../../sass/_base.scss */
+/* line 78, ../../sass/_base.scss */
 a:focus, body #mainWrapper #wrapper #top #skip a:focus:active, body #mainWrapper #wrapper #top #skip a:focus:visited, body #mainWrapper #wrapper #top #skip a:focus:hover {
   outline: 0;
 }
-/* line 51, ../../sass/_base.scss */
+/* line 81, ../../sass/_base.scss */
 a:active, body #mainWrapper #wrapper #top #skip a:active {
   outline: 0;
 }
-/* line 54, ../../sass/_base.scss */
+/* line 84, ../../sass/_base.scss */
 a:hover, body #mainWrapper #wrapper #top #skip a:hover {
-  color: #1e4c9e;
+  color: #546008;
   outline: 0;
 }
 
@@ -264,82 +304,133 @@ body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a
   overflow: hidden;
 }
 
-/*
------------------------------------
-
-	*** Styles.scss ***
-	
------------------------------------      */
-/*  blue-brand-top-stripe 
+/*  top-stripe
 ------------------------------------     */
-/* line 23, ../../sass/styles.scss */
+/* line 3, ../../sass/_navlayout.scss */
 #brandbanner {
-  background-color: #2b4857;
+  background-color: #333b05;
   height: 25px;
   width: 100%;
 }
 
 /* header section
 --------------------------------------    */
-/* line 32, ../../sass/styles.scss */
+/* line 13, ../../sass/_navlayout.scss */
 header#header {
   padding: 1em 0;
   background: white;
   border-bottom: 1px solid #060A0C;
 }
-/* line 38, ../../sass/styles.scss */
+/* line 19, ../../sass/_navlayout.scss */
 header#header #mainrealestate #logo {
   max-width: 300px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 44, ../../sass/styles.scss */
+/* line 25, ../../sass/_navlayout.scss */
 header#header #mainrealestate #brandz {
-  margin: 0 1em 0 5em;
+  margin-left: 5em;
   display: inline-block;
-  height: 88px;
   vertical-align: middle;
 }
-/* line 49, ../../sass/styles.scss */
+/* line 29, ../../sass/_navlayout.scss */
 header#header #mainrealestate #brandz h1 {
   margin-bottom: .3em;
 }
-/* line 52, ../../sass/styles.scss */
+/* line 32, ../../sass/_navlayout.scss */
 header#header #mainrealestate #brandz h3 {
   margin-bottom: .2em;
   text-align: center;
 }
 
-/* line 60, ../../sass/styles.scss */
+/* line 41, ../../sass/_navlayout.scss */
 #mainmenu {
-  max-height: 53px;
+  max-height: 72px;
   background: white;
 }
+/* line 44, ../../sass/_navlayout.scss */
+#mainmenu .navbar {
+  margin-bottom: 0;
+}
+/* line 51, ../../sass/_navlayout.scss */
+#mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
+  color: #606e09;
+  letter-spacing: .15px;
+  font-size: 16px;
+  line-height: 150%;
+}
+/* line 56, ../../sass/_navlayout.scss */
+#mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
+  color: #444d06;
+  text-decoration: underline;
+}
+/* line 74, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav .nav .navbar-nav > li a, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:active, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:visited, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:hover {
+  color: #75860b;
+}
 
+/*  maincontent
+-------------------------------- */
+/* line 5, ../../sass/_maincontent.scss */
+#mainContent #maintop {
+  margin-bottom: 2em;
+}
+/* line 7, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner {
+  border-bottom: 1px dotted #45464A;
+}
+/* line 9, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner figure#bannerCaption {
+  margin: 1.25em 0;
+}
+/* line 15, ../../sass/_maincontent.scss */
+#mainContent #maintop #featureBanner figure#bannerCaption h4 {
+  margin-bottom: .3em;
+  color: #140F59;
+}
+/* line 23, ../../sass/_maincontent.scss */
+#mainContent #mainbottom {
+  margin-bottom: 2em;
+}
+/* line 25, ../../sass/_maincontent.scss */
+#mainContent #mainbottom .apiarea {
+  margin-bottom: 2em;
+}
+/* line 27, ../../sass/_maincontent.scss */
+#mainContent #mainbottom .apiarea .headline {
+  margin-bottom: .5em;
+}
+
+/*
+-----------------------------------
+
+	*** Styles.scss ***
+	
+-----------------------------------      */
 /* Rules for using icons as black on a light background. */
-/* line 72, ../../sass/styles.scss */
+/* line 31, ../../sass/styles.scss */
 .material-icons.md-dark {
   color: rgba(0, 0, 0, 0.85);
   font-size: 36px;
   line-height: 100%;
 }
-/* line 76, ../../sass/styles.scss */
+/* line 35, ../../sass/styles.scss */
 .material-icons.md-dark:hover {
   color: rgba(40, 130, 111, 0.92);
 }
 
-/* line 83, ../../sass/styles.scss */
+/* line 42, ../../sass/styles.scss */
 .material-icons.md-dark.md-inactive {
   color: rgba(0, 0, 0, 0.26);
 }
 
 /* Rules for using icons as white on a dark background. */
-/* line 87, ../../sass/styles.scss */
+/* line 46, ../../sass/styles.scss */
 .material-icons.md-light {
   color: white;
 }
 
-/* line 88, ../../sass/styles.scss */
+/* line 47, ../../sass/styles.scss */
 .material-icons.md-light.md-inactive {
   color: rgba(255, 255, 255, 0.3);
 }
