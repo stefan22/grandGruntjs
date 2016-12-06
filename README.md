@@ -2,7 +2,7 @@
 
 ### dest folder is => public/builds/
 
-### new html startup-page for workfolder
+### new startup-page for workfolder
 > this time to include sass ready files.
 
 
@@ -17,6 +17,7 @@
 - added a few partials, compass mixes for a more modular look :)
 - added a secondary font and moved google fonts from index page to 
   sass folders.
+
 
 
 
