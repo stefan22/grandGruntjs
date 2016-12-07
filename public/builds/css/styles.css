@@ -372,33 +372,97 @@ header#header #mainrealestate #brandz h3 {
 /*  maincontent
 -------------------------------- */
 /* line 5, ../../sass/_maincontent.scss */
-#mainContent #maintop {
+#mainContent .mainpad {
   margin-bottom: 2em;
 }
-/* line 7, ../../sass/_maincontent.scss */
+/* line 10, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner {
   border-bottom: 1px dotted #45464A;
 }
-/* line 9, ../../sass/_maincontent.scss */
+/* line 12, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption {
   margin: 1.25em 0;
 }
-/* line 15, ../../sass/_maincontent.scss */
+/* line 18, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption h4 {
   margin-bottom: .3em;
   color: #140F59;
 }
-/* line 23, ../../sass/_maincontent.scss */
-#mainContent #mainbottom {
-  margin-bottom: 2em;
+/* line 29, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea {
+  margin: 2em 0;
 }
-/* line 25, ../../sass/_maincontent.scss */
+/* line 31, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .headline {
+  margin-bottom: .5em;
+}
+/* line 40, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
   margin-bottom: 2em;
 }
-/* line 27, ../../sass/_maincontent.scss */
+/* line 42, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
   margin-bottom: .5em;
+}
+
+/*   footer
+----------------------------   */
+/* line 4, ../../sass/_footer.scss */
+.footer {
+  padding: 0 !important;
+  position: relative;
+  margin-top: -120px;
+  min-height: 120px;
+  clear: both;
+  box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
+  border-top: 1px solid #e9e6df;
+  background-color: #f8f7f2;
+}
+/* line 13, ../../sass/_footer.scss */
+.footer #topfoot.container {
+  padding: 0;
+}
+/* line 15, ../../sass/_footer.scss */
+.footer #topfoot.container #footer-content {
+  padding-top: 2em;
+}
+/* line 17, ../../sass/_footer.scss */
+.footer #topfoot.container #footer-content .subfoot {
+  margin-bottom: 1em;
+}
+/* line 19, ../../sass/_footer.scss */
+.footer #topfoot.container #footer-content .subfoot h4 {
+  margin-bottom: .3em;
+}
+/* line 21, ../../sass/_footer.scss */
+.footer #topfoot.container #footer-content .subfoot h4 .material-icons.md-dark {
+  color: black;
+  font-size: 24px;
+  line-height: 100%;
+}
+/* line 30, ../../sass/_footer.scss */
+.footer #botfoot {
+  padding: 0 !important;
+  position: relative;
+  margin-top: -120px;
+  min-height: 120px;
+  clear: both;
+  box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
+  border-top: 1px solid #e9e6df;
+  background-color: #f44336;
+}
+/* line 39, ../../sass/_footer.scss */
+.footer #botfoot .container {
+  padding: 0;
+}
+/* line 41, ../../sass/_footer.scss */
+.footer #botfoot .container .row {
+  padding-top: 2em;
+}
+/* line 43, ../../sass/_footer.scss */
+.footer #botfoot .container .row .copyright {
+  vertical-align: middle;
+  line-height: 55px;
 }
 
 /*
@@ -408,29 +472,29 @@ header#header #mainrealestate #brandz h3 {
 	
 -----------------------------------      */
 /* Rules for using icons as black on a light background. */
-/* line 31, ../../sass/styles.scss */
+/* line 32, ../../sass/styles.scss */
 .material-icons.md-dark {
   color: rgba(0, 0, 0, 0.85);
   font-size: 36px;
   line-height: 100%;
 }
-/* line 35, ../../sass/styles.scss */
+/* line 36, ../../sass/styles.scss */
 .material-icons.md-dark:hover {
   color: rgba(40, 130, 111, 0.92);
 }
 
-/* line 42, ../../sass/styles.scss */
+/* line 43, ../../sass/styles.scss */
 .material-icons.md-dark.md-inactive {
   color: rgba(0, 0, 0, 0.26);
 }
 
 /* Rules for using icons as white on a dark background. */
-/* line 46, ../../sass/styles.scss */
+/* line 47, ../../sass/styles.scss */
 .material-icons.md-light {
   color: white;
 }
 
-/* line 47, ../../sass/styles.scss */
+/* line 48, ../../sass/styles.scss */
 .material-icons.md-light.md-inactive {
   color: rgba(255, 255, 255, 0.3);
 }
