@@ -1,29 +1,9 @@
 /* adobe color generator
 =======================  */
-/* to extend primary font
--------------------------  */
-@import url("https://fonts.googleapis.com/css?family=Nobile");
-@import url("https://fonts.googleapis.com/css?family=Merriweather");
-/* line 13, ../../sass/_variables.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nobile',serif, arial;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  *zoom: 1;
-}
-
-/* line 22, ../../sass/_variables.scss */
-p {
-  font-family: 'Merriweather', serif, arial;
-  font-weight: normal;
-  overflow: hidden;
-  *zoom: 1;
-}
-
 /*  imports & applies Eric Meyer's Reset.css
 --------------------------------------------     */
+@import url("https://fonts.googleapis.com/css?family=Nobile");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
 /* line 5, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -96,52 +76,79 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 --------------------------------------------     */
 /* sets primary & secondary fonts
 ----------------------------------------------   */
-/* line 22, ../../sass/_base.scss */
+/* to extend primary font
+-------------------------  */
+/* line 19, ../../sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nobile", serif, arial;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 28, ../../sass/_base.scss */
+p, #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
+  font-family: "Merriweather", serif, arial;
+  font-weight: normal;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 41, ../../sass/_base.scss */
 h1 {
   font-size: 36px;
   line-height: 140%;
-  color: #060A0C;
-}
-
-/* line 30, ../../sass/_base.scss */
-h2 {
-  font-size: 32px;
-  line-height: 140%;
-  color: #17262e;
-}
-
-/* line 37, ../../sass/_base.scss */
-h3 {
-  font-size: 28px;
-  line-height: 130%;
-  color: #75860b;
-}
-
-/* line 44, ../../sass/_base.scss */
-h4 {
-  font-size: 24px;
-  line-height: 130%;
+  color: #0d0d0d;
+  margin-bottom: 0.6em;
 }
 
 /* line 50, ../../sass/_base.scss */
+h2 {
+  font-size: 32px;
+  line-height: 140%;
+  color: #a62319;
+  margin-bottom: 0.5em;
+}
+
+/* line 59, ../../sass/_base.scss */
+h3 {
+  font-size: 28px;
+  line-height: 130%;
+  margin-bottom: .4em;
+  color: #8c251d;
+}
+
+/* line 67, ../../sass/_base.scss */
+h4 {
+  font-size: 24px;
+  line-height: 130%;
+  margin-bottom: .3em;
+}
+
+/* line 75, ../../sass/_base.scss */
 h5 {
   font-size: 22px;
   line-height: 120%;
+  margin-bottom: .3em;
 }
 
-/* line 56, ../../sass/_base.scss */
+/* line 82, ../../sass/_base.scss */
 h6 {
   font-size: 20px;
   line-height: 120%;
+  margin-bottom: .3em;
 }
 
-/* line 63, ../../sass/_base.scss */
+/* line 90, ../../sass/_base.scss */
 p {
   font-size: 15px;
   line-height: 150%;
+  margin-bottom: .3em;
 }
 
-/* line 71, ../../sass/_base.scss */
+/* line 99, ../../sass/_base.scss */
 a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -150,19 +157,19 @@ a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #t
   -moz-animation: "slide-down 5s 3";
   -webkit-animation: "slide-down 5s 3";
   animation: "slide-down 5s 3";
-  color: #606e09;
+  color: #6a7613;
 }
-/* line 78, ../../sass/_base.scss */
+/* line 106, ../../sass/_base.scss */
 a:focus, body #mainWrapper #wrapper #top #skip a:focus:active, body #mainWrapper #wrapper #top #skip a:focus:visited, body #mainWrapper #wrapper #top #skip a:focus:hover {
   outline: 0;
 }
-/* line 81, ../../sass/_base.scss */
+/* line 109, ../../sass/_base.scss */
 a:active, body #mainWrapper #wrapper #top #skip a:active {
   outline: 0;
 }
-/* line 84, ../../sass/_base.scss */
+/* line 112, ../../sass/_base.scss */
 a:hover, body #mainWrapper #wrapper #top #skip a:hover {
-  color: #546008;
+  color: #5e6910;
   outline: 0;
 }
 
@@ -178,16 +185,16 @@ a:hover, body #mainWrapper #wrapper #top #skip a:hover {
 =========================================                         */
 /* line 26, ../../sass/_mixins.scss */
 .button-red {
-  color: #467bdc;
-  background-color: #F1F1F0;
-  border-color: #719ae4;
+  color: #7aafe7;
+  background-color: #4f95df;
+  border-color: #a5c9ef;
   text-shadow: 0px 0px 1px rgba(99, 99, 99, 0.7);
 }
 /* line 32, ../../sass/_mixins.scss */
 .button-red:hover {
-  color: #2256b4;
-  background-color: #2052ab;
-  border-color: #1e4c9e;
+  color: #3988db;
+  background-color: #3183da;
+  border-color: #277bd4;
 }
 /* line 37, ../../sass/_mixins.scss */
 .button-red:focus {
@@ -273,8 +280,8 @@ a:hover, body #mainWrapper #wrapper #top #skip a:hover {
 body {
   height: 100%;
   font-family: "Merriweather", serif, arial;
-  background-color: white;
-  color: #45464A;
+  background-color: #ffffff;
+  color: #555932;
   font-size: 14px;
   line-height: 150%;
   margin: 0;
@@ -291,8 +298,8 @@ body #mainWrapper #wrapper {
 }
 /* line 18, ../../sass/_mainlayout.scss */
 body #mainWrapper #wrapper #top {
-  background-color: #060A0C;
-  color: #060A0C;
+  background-color: #4f95df;
+  color: #4f95df;
 }
 /* line 22, ../../sass/_mainlayout.scss */
 body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
@@ -308,8 +315,8 @@ body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a
 ------------------------------------     */
 /* line 3, ../../sass/_navlayout.scss */
 #brandbanner {
-  background-color: #333b05;
-  height: 25px;
+  background-color: #8c251d;
+  height: 3px;
   width: 100%;
 }
 
@@ -318,8 +325,7 @@ body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a
 /* line 13, ../../sass/_navlayout.scss */
 header#header {
   padding: 1em 0;
-  background: white;
-  border-bottom: 1px solid #060A0C;
+  background: #ffffff;
 }
 /* line 19, ../../sass/_navlayout.scss */
 header#header #mainrealestate #logo {
@@ -339,34 +345,39 @@ header#header #mainrealestate #brandz h1 {
 }
 /* line 32, ../../sass/_navlayout.scss */
 header#header #mainrealestate #brandz h3 {
-  margin-bottom: .2em;
   text-align: center;
 }
 
-/* line 41, ../../sass/_navlayout.scss */
+/* line 40, ../../sass/_navlayout.scss */
 #mainmenu {
   max-height: 72px;
-  background: white;
+  background: #d3df7c;
+  border-bottom: 1px solid #c5d553;
 }
 /* line 44, ../../sass/_navlayout.scss */
 #mainmenu .navbar {
   margin-bottom: 0;
 }
-/* line 51, ../../sass/_navlayout.scss */
+/* line 47, ../../sass/_navlayout.scss */
+#mainmenu .navbar-default {
+  border: transparent;
+  background-color: #d3df7c;
+}
+/* line 53, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
-  color: #606e09;
+  color: #555932;
   letter-spacing: .15px;
   font-size: 16px;
   line-height: 150%;
 }
-/* line 56, ../../sass/_navlayout.scss */
+/* line 59, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
-  color: #444d06;
+  color: #4e570e;
   text-decoration: underline;
 }
-/* line 74, ../../sass/_navlayout.scss */
+/* line 77, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav .nav .navbar-nav > li a, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:active, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:visited, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:hover {
-  color: #75860b;
+  color: #7E8C16;
 }
 
 /*  maincontent
@@ -377,30 +388,31 @@ header#header #mainrealestate #brandz h3 {
 }
 /* line 10, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner {
-  border-bottom: 1px dotted #45464A;
+  border-bottom: 1px dotted #d3df7c;
+  margin-bottom: 2em;
 }
-/* line 12, ../../sass/_maincontent.scss */
+/* line 13, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption {
   margin: 1.25em 0;
 }
-/* line 18, ../../sass/_maincontent.scss */
+/* line 19, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption h4 {
-  margin-bottom: .3em;
-  color: #140F59;
+  margin-bottom: .5em;
+  color: #4f95df;
 }
-/* line 29, ../../sass/_maincontent.scss */
+/* line 30, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea {
   margin: 2em 0;
 }
-/* line 31, ../../sass/_maincontent.scss */
+/* line 32, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .headline {
   margin-bottom: .5em;
 }
-/* line 40, ../../sass/_maincontent.scss */
+/* line 41, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
-/* line 42, ../../sass/_maincontent.scss */
+/* line 43, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
   margin-bottom: .5em;
 }
@@ -415,8 +427,8 @@ header#header #mainrealestate #brandz h3 {
   min-height: 120px;
   clear: both;
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
-  border-top: 1px solid #e9e6df;
-  background-color: #f8f7f2;
+  border-top: 1px solid white;
+  background-color: white;
 }
 /* line 13, ../../sass/_footer.scss */
 .footer #topfoot.container {
@@ -449,7 +461,7 @@ header#header #mainrealestate #brandz h3 {
   clear: both;
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
   border-top: 1px solid #e9e6df;
-  background-color: #f44336;
+  background-color: #b2c51f;
 }
 /* line 39, ../../sass/_footer.scss */
 .footer #botfoot .container {
