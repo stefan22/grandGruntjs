@@ -101,10 +101,10 @@ h1 {
   font-size: 36px;
   line-height: 140%;
   color: #0d0d0d;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.6em #000;
 }
 
-/* line 50, ../../sass/_base.scss */
+/* line 53, ../../sass/_base.scss */
 h2 {
   font-size: 32px;
   line-height: 140%;
@@ -112,43 +112,51 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-/* line 59, ../../sass/_base.scss */
+/* line 62, ../../sass/_base.scss */
 h3 {
   font-size: 28px;
   line-height: 130%;
   margin-bottom: .4em;
-  color: #8c251d;
+  color: #a62319;
 }
 
-/* line 67, ../../sass/_base.scss */
+/* line 72, ../../sass/_base.scss */
 h4 {
   font-size: 24px;
   line-height: 130%;
+  color: #0d0d0d;
   margin-bottom: .3em;
 }
 
-/* line 75, ../../sass/_base.scss */
+/* line 81, ../../sass/_base.scss */
 h5 {
   font-size: 22px;
   line-height: 120%;
+  color: #a62319;
   margin-bottom: .3em;
 }
 
-/* line 82, ../../sass/_base.scss */
+/* line 89, ../../sass/_base.scss */
 h6 {
   font-size: 20px;
   line-height: 120%;
   margin-bottom: .3em;
+  color: #a62319;
 }
 
-/* line 90, ../../sass/_base.scss */
+/* line 98, ../../sass/_base.scss */
 p {
   font-size: 15px;
   line-height: 150%;
+  color: #121212;
   margin-bottom: .3em;
 }
+/* line 104, ../../sass/_base.scss */
+p:focus {
+  outline: none;
+}
 
-/* line 99, ../../sass/_base.scss */
+/* line 111, ../../sass/_base.scss */
 a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -159,18 +167,23 @@ a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #t
   animation: "slide-down 5s 3";
   color: #6a7613;
 }
-/* line 106, ../../sass/_base.scss */
+/* line 118, ../../sass/_base.scss */
 a:focus, body #mainWrapper #wrapper #top #skip a:focus:active, body #mainWrapper #wrapper #top #skip a:focus:visited, body #mainWrapper #wrapper #top #skip a:focus:hover {
-  outline: 0;
+  outline: none;
 }
-/* line 109, ../../sass/_base.scss */
+/* line 121, ../../sass/_base.scss */
 a:active, body #mainWrapper #wrapper #top #skip a:active {
-  outline: 0;
+  outline: none;
 }
-/* line 112, ../../sass/_base.scss */
+/* line 124, ../../sass/_base.scss */
 a:hover, body #mainWrapper #wrapper #top #skip a:hover {
   color: #5e6910;
-  outline: 0;
+  outline: none;
+}
+
+/* line 132, ../../sass/_base.scss */
+img:focus {
+  outline: none;
 }
 
 /* Compass Mixin
@@ -280,8 +293,6 @@ a:hover, body #mainWrapper #wrapper #top #skip a:hover {
 body {
   height: 100%;
   font-family: "Merriweather", serif, arial;
-  background-color: #ffffff;
-  color: #555932;
   font-size: 14px;
   line-height: 150%;
   margin: 0;
@@ -294,7 +305,7 @@ body #mainWrapper {
 /* line 15, ../../sass/_mainlayout.scss */
 body #mainWrapper #wrapper {
   overflow: visible;
-  padding-bottom: 120px;
+  padding-bottom: 312px;
 }
 /* line 18, ../../sass/_mainlayout.scss */
 body #mainWrapper #wrapper #top {
@@ -325,11 +336,11 @@ body #mainWrapper #wrapper #top #skip a, body #mainWrapper #wrapper #top #skip a
 /* line 13, ../../sass/_navlayout.scss */
 header#header {
   padding: 1em 0;
-  background: #ffffff;
+  background: #f7f7f7;
 }
 /* line 19, ../../sass/_navlayout.scss */
 header#header #mainrealestate #logo {
-  max-width: 300px;
+  max-width: 230px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -343,39 +354,40 @@ header#header #mainrealestate #brandz {
 header#header #mainrealestate #brandz h1 {
   margin-bottom: .3em;
 }
-/* line 32, ../../sass/_navlayout.scss */
+/* line 34, ../../sass/_navlayout.scss */
 header#header #mainrealestate #brandz h3 {
   text-align: center;
 }
 
-/* line 40, ../../sass/_navlayout.scss */
+/* line 44, ../../sass/_navlayout.scss */
 #mainmenu {
   max-height: 72px;
-  background: #d3df7c;
-  border-bottom: 1px solid #c5d553;
+  background: #a62319;
+  border-bottom: 1px solid #8c251d;
+  margin-bottom: 1px;
 }
-/* line 44, ../../sass/_navlayout.scss */
+/* line 51, ../../sass/_navlayout.scss */
 #mainmenu .navbar {
   margin-bottom: 0;
 }
-/* line 47, ../../sass/_navlayout.scss */
+/* line 54, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default {
   border: transparent;
-  background-color: #d3df7c;
+  background-color: #a62319;
 }
-/* line 53, ../../sass/_navlayout.scss */
+/* line 60, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
-  color: #555932;
+  color: #f7f7f7;
   letter-spacing: .15px;
   font-size: 16px;
   line-height: 150%;
 }
-/* line 59, ../../sass/_navlayout.scss */
+/* line 68, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
   color: #4e570e;
   text-decoration: underline;
 }
-/* line 77, ../../sass/_navlayout.scss */
+/* line 86, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav .nav .navbar-nav > li a, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:active, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:visited, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:hover {
   color: #7E8C16;
 }
@@ -383,36 +395,44 @@ header#header #mainrealestate #brandz h3 {
 /*  maincontent
 -------------------------------- */
 /* line 5, ../../sass/_maincontent.scss */
+#mainContent:focus {
+  outline: none;
+}
+/* line 8, ../../sass/_maincontent.scss */
 #mainContent .mainpad {
   margin-bottom: 2em;
 }
-/* line 10, ../../sass/_maincontent.scss */
+/* line 14, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner {
-  border-bottom: 1px dotted #d3df7c;
+  border-bottom: 1px dotted #fbfcf3;
   margin-bottom: 2em;
 }
-/* line 13, ../../sass/_maincontent.scss */
+/* line 17, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption {
   margin: 1.25em 0;
+  background-color: #fbfcf3;
+  padding: .5em .75em;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
-/* line 19, ../../sass/_maincontent.scss */
+/* line 26, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption h4 {
   margin-bottom: .5em;
-  color: #4f95df;
 }
-/* line 30, ../../sass/_maincontent.scss */
+/* line 37, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea {
   margin: 2em 0;
 }
-/* line 32, ../../sass/_maincontent.scss */
+/* line 39, ../../sass/_maincontent.scss */
 #mainContent #mainmiddle .apiarea .headline {
   margin-bottom: .5em;
 }
-/* line 41, ../../sass/_maincontent.scss */
+/* line 48, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
   margin-bottom: 3em;
 }
-/* line 43, ../../sass/_maincontent.scss */
+/* line 50, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
   margin-bottom: .5em;
 }
@@ -420,61 +440,103 @@ header#header #mainrealestate #brandz h3 {
 /*   footer
 ----------------------------   */
 /* line 4, ../../sass/_footer.scss */
-.footer {
+.footer#mainFooter {
   padding: 0 !important;
   position: relative;
-  margin-top: -120px;
-  min-height: 120px;
+  margin-top: -312px;
+  min-height: 312px;
   clear: both;
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
-  border-top: 1px solid white;
-  background-color: white;
+  border-top: 1px solid #e7edb6;
+  background-color: #fbfcf3;
 }
 /* line 13, ../../sass/_footer.scss */
-.footer #topfoot.container {
+.footer#mainFooter #topfoot.container {
   padding: 0;
 }
 /* line 15, ../../sass/_footer.scss */
-.footer #topfoot.container #footer-content {
+.footer#mainFooter #topfoot.container #footer-content {
   padding-top: 2em;
 }
-/* line 17, ../../sass/_footer.scss */
-.footer #topfoot.container #footer-content .subfoot {
-  margin-bottom: 1em;
+/* line 16, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content h5 {
+  margin-bottom: .75em;
 }
-/* line 19, ../../sass/_footer.scss */
-.footer #topfoot.container #footer-content .subfoot h4 {
-  margin-bottom: .3em;
+/* line 20, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #socialIcons p {
+  margin-bottom: .75em;
 }
-/* line 21, ../../sass/_footer.scss */
-.footer #topfoot.container #footer-content .subfoot h4 .material-icons.md-dark {
-  color: black;
-  font-size: 24px;
-  line-height: 100%;
+/* line 23, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #socialIcons a {
+  display: inline-block;
+  margin-left: .5em;
+  max-height: 55px;
+  max-width: 55px;
 }
-/* line 30, ../../sass/_footer.scss */
-.footer #botfoot {
+/* line 32, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #relatedLinks a {
+  color: #a62319;
+  text-decoration: underline;
+}
+/* line 42, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content .subfoot {
+  margin-bottom: 3em;
+}
+/* line 44, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content .subfoot p {
+  color: #121212;
+}
+/* line 49, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
+  color: #a62319;
+  font-size: 22px;
+  line-height: 98%;
+  vertical-align: middle;
+}
+/* line 60, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot {
   padding: 0 !important;
   position: relative;
-  margin-top: -120px;
-  min-height: 120px;
+  margin-top: -100px;
+  min-height: 100px;
   clear: both;
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
-  border-top: 1px solid #e9e6df;
-  background-color: #b2c51f;
+  border-top: 1px solid #871c14;
+  background-color: #a62319;
 }
-/* line 39, ../../sass/_footer.scss */
-.footer #botfoot .container {
+/* line 69, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container {
   padding: 0;
 }
-/* line 41, ../../sass/_footer.scss */
-.footer #botfoot .container .row {
-  padding-top: 2em;
+/* line 71, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row {
+  padding-top: 1.5em;
 }
-/* line 43, ../../sass/_footer.scss */
-.footer #botfoot .container .row .copyright {
+/* line 73, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright {
+  text-align: right;
   vertical-align: middle;
-  line-height: 55px;
+  line-height: 69px;
+  margin-bottom: 0;
+  color: #000000;
+  font-size: 14px;
+}
+/* line 80, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright .myself {
+  color: #000000;
+  vertical-align: text-top;
+  line-height: 14px;
+  font-size: 14px;
+}
+/* line 86, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright span.braggSection {
+  vertical-align: text-top;
+  line-height: 14px;
+}
+/* line 89, ../../sass/_footer.scss */
+.footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
+  color: #f7f7f7;
+  font-size: 14px;
 }
 
 /*
