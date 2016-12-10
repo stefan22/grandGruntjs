@@ -25,7 +25,16 @@
   <br />
   
   
-  ![screenshot](screenshot.png?raw=true "screenshot")
+  ![screenshot3](public/builds/assets/images/screenshot3-top.png?raw=true "screenshot3")
+  
+  
+  <hr />
+  
+  <br />
+  
+  
+  ![screenshot3](public/builds/assets/images/screenshot3-bottom.png?raw=true "screenshot3")
+
 
 
 
