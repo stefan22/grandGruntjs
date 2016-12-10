@@ -96,7 +96,25 @@ p, #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navb
   *zoom: 1;
 }
 
-/* line 41, ../../sass/_base.scss */
+/* line 35, ../../sass/_base.scss */
+#mainmenu #primary-nav ul #nav-home a i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover i.material-icons, #mainmenu #primary-nav ul #nav-one a i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover i.material-icons, #mainmenu #primary-nav ul #nav-two a i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover i.material-icons, #mainmenu #primary-nav ul #nav-three a i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover i.material-icons, #mainmenu #primary-nav ul #nav-four a i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover i.material-icons, #mainmenu #primary-nav ul #nav-five a i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover i.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 99%;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+/* line 58, ../../sass/_base.scss */
 h1 {
   font-size: 36px;
   line-height: 140%;
@@ -104,7 +122,7 @@ h1 {
   margin-bottom: 0.6em #000;
 }
 
-/* line 53, ../../sass/_base.scss */
+/* line 70, ../../sass/_base.scss */
 h2 {
   font-size: 32px;
   line-height: 140%;
@@ -112,7 +130,7 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-/* line 62, ../../sass/_base.scss */
+/* line 79, ../../sass/_base.scss */
 h3 {
   font-size: 28px;
   line-height: 130%;
@@ -120,7 +138,7 @@ h3 {
   color: #a62319;
 }
 
-/* line 72, ../../sass/_base.scss */
+/* line 89, ../../sass/_base.scss */
 h4 {
   font-size: 24px;
   line-height: 130%;
@@ -128,7 +146,7 @@ h4 {
   margin-bottom: .3em;
 }
 
-/* line 81, ../../sass/_base.scss */
+/* line 98, ../../sass/_base.scss */
 h5 {
   font-size: 22px;
   line-height: 120%;
@@ -136,7 +154,7 @@ h5 {
   margin-bottom: .3em;
 }
 
-/* line 89, ../../sass/_base.scss */
+/* line 106, ../../sass/_base.scss */
 h6 {
   font-size: 20px;
   line-height: 120%;
@@ -144,19 +162,19 @@ h6 {
   color: #a62319;
 }
 
-/* line 98, ../../sass/_base.scss */
+/* line 115, ../../sass/_base.scss */
 p {
   font-size: 15px;
   line-height: 150%;
   color: #121212;
   margin-bottom: .3em;
 }
-/* line 104, ../../sass/_base.scss */
+/* line 121, ../../sass/_base.scss */
 p:focus {
   outline: none;
 }
 
-/* line 111, ../../sass/_base.scss */
+/* line 128, ../../sass/_base.scss */
 a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -167,21 +185,27 @@ a, body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #t
   animation: "slide-down 5s 3";
   color: #6a7613;
 }
-/* line 118, ../../sass/_base.scss */
+/* line 135, ../../sass/_base.scss */
 a:focus, body #mainWrapper #wrapper #top #skip a:focus:active, body #mainWrapper #wrapper #top #skip a:focus:visited, body #mainWrapper #wrapper #top #skip a:focus:hover {
   outline: none;
 }
-/* line 121, ../../sass/_base.scss */
+/* line 138, ../../sass/_base.scss */
 a:active, body #mainWrapper #wrapper #top #skip a:active {
   outline: none;
 }
-/* line 124, ../../sass/_base.scss */
+/* line 141, ../../sass/_base.scss */
 a:hover, body #mainWrapper #wrapper #top #skip a:hover {
   color: #5e6910;
   outline: none;
 }
 
-/* line 132, ../../sass/_base.scss */
+/* line 148, ../../sass/_base.scss */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* line 152, ../../sass/_base.scss */
 img:focus {
   outline: none;
 }
@@ -338,58 +362,78 @@ header#header {
   padding: 1em 0;
   background: #f7f7f7;
 }
-/* line 19, ../../sass/_navlayout.scss */
-header#header #mainrealestate #logo {
+/* line 18, ../../sass/_navlayout.scss */
+header#header #logo a, header#header #logo body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip header#header #logo a:active, header#header #logo body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip header#header #logo a:visited, header#header #logo body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip header#header #logo a:hover {
+  display: block;
+}
+/* line 21, ../../sass/_navlayout.scss */
+header#header #logo img {
   max-width: 230px;
-  display: inline-block;
-  vertical-align: middle;
 }
-/* line 25, ../../sass/_navlayout.scss */
-header#header #mainrealestate #brandz {
-  margin-left: 5em;
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 29, ../../sass/_navlayout.scss */
-header#header #mainrealestate #brandz h1 {
+/* line 28, ../../sass/_navlayout.scss */
+header#header #brandz h1 {
   margin-bottom: .3em;
-}
-/* line 34, ../../sass/_navlayout.scss */
-header#header #mainrealestate #brandz h3 {
   text-align: center;
 }
+/* line 33, ../../sass/_navlayout.scss */
+header#header #brandz h3 {
+  text-align: center;
+  margin: 0;
+}
 
-/* line 44, ../../sass/_navlayout.scss */
+/* line 42, ../../sass/_navlayout.scss */
 #mainmenu {
   max-height: 72px;
   background: #a62319;
-  border-bottom: 1px solid #8c251d;
+  border-bottom: 2px solid #8c251d;
   margin-bottom: 1px;
+  box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.85);
 }
-/* line 51, ../../sass/_navlayout.scss */
+/* line 50, ../../sass/_navlayout.scss */
 #mainmenu .navbar {
   margin-bottom: 0;
 }
-/* line 54, ../../sass/_navlayout.scss */
+/* line 53, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default {
   border: transparent;
   background-color: #a62319;
 }
-/* line 60, ../../sass/_navlayout.scss */
+/* line 59, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
   color: #f7f7f7;
   letter-spacing: .15px;
   font-size: 16px;
   line-height: 150%;
+  font-weight: lighter;
 }
 /* line 68, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
-  color: #4e570e;
+  color: #050505;
   text-decoration: underline;
 }
-/* line 86, ../../sass/_navlayout.scss */
-#mainmenu #primary-nav .nav .navbar-nav > li a, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:active, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:visited, #mainmenu #primary-nav .nav .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav .nav .navbar-nav > li a:hover {
-  color: #7E8C16;
+/* line 81, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-home a i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover i.material-icons {
+  font-size: 14px;
+}
+/* line 89, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-one a i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover i.material-icons {
+  font-size: 13px;
+}
+/* line 97, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-two a i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover i.material-icons {
+  font-size: 13px;
+}
+/* line 105, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-three a i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover i.material-icons {
+  font-size: 13px;
+}
+/* line 113, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-four a i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover i.material-icons {
+  font-size: 13px;
+}
+/* line 121, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-five a i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover i.material-icons {
+  font-size: 13px;
 }
 
 /*  maincontent
@@ -425,16 +469,30 @@ header#header #mainrealestate #brandz h3 {
   margin: 2em 0;
 }
 /* line 39, ../../sass/_maincontent.scss */
-#mainContent #mainmiddle .apiarea .headline {
+#mainContent #mainmiddle .apiarea .headline > {
   margin-bottom: .5em;
 }
-/* line 48, ../../sass/_maincontent.scss */
+/* line 41, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle .apiarea .headline > i.material-icons {
+  color: #a62319;
+  font-size: 24px;
+  line-height: 99%;
+  vertical-align: middle;
+}
+/* line 55, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
   margin-bottom: 3em;
 }
-/* line 50, ../../sass/_maincontent.scss */
+/* line 57, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
   margin-bottom: .5em;
+}
+/* line 59, ../../sass/_maincontent.scss */
+#mainContent #mainbottom .apiarea .headline i.material-icons {
+  color: #a62319;
+  font-size: 24px;
+  line-height: 99%;
+  vertical-align: middle;
 }
 
 /*   footer
