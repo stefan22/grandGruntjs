@@ -405,6 +405,7 @@ header#header #brandz h3 {
   font-size: 16px;
   line-height: 150%;
   font-weight: lighter;
+  text-shadow: 0px 0px 5px rgba(109, 37, 37, 0.5);
 }
 /* line 68, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover {
@@ -434,6 +435,32 @@ header#header #brandz h3 {
 /* line 121, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-five a i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover i.material-icons {
   font-size: 13px;
+}
+/* line 130, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six a b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:active b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:active b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:visited b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:visited b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:hover b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:hover b.caret {
+  margin-left: 5px;
+}
+/* line 133, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:hover, #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active {
+  background-color: #b3261b;
+}
+/* line 137, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six a.dropdown-toggle, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:hover {
+  background-color: #a62319;
+}
+/* line 141, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:hover, #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:hover {
+  background-color: #b3261b;
+}
+/* line 144, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six .nav .open > a:focus, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:active, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:visited, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:hover {
+  background-color: #b3261b;
+}
+/* line 148, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six ul.dropdown-menu {
+  min-width: 130px;
+  top: 105%;
+  background-color: #b3261b;
 }
 
 /*  maincontent

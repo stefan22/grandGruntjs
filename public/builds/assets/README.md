@@ -25,7 +25,7 @@
   <br />
   
   
-  ![screenshot3](public/builds/assets/images/screenshot3-top.png?raw=true "screenshot3")
+  ![screenshot4](public/builds/assets/images/screenshot4-top.png?raw=true "screenshot4")
   
   
   <hr />
@@ -33,7 +33,7 @@
   <br />
   
   
-  ![screenshot3](public/builds/assets/images/screenshot3-bottom.png?raw=true "screenshot3")
+  ![screenshot4](public/builds/assets/images/screenshot4-bottom.png?raw=true "screenshot4")
 
 
 
