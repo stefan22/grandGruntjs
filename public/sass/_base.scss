@@ -1,0 +1,159 @@
+/*  imports & applies Eric Meyer's Reset.css
+--------------------------------------------     */
+@import "compass/reset/";
+
+
+/* grabs google fonts
+--------------------------------------------     */
+
+@import url('https://fonts.googleapis.com/css?family=Nobile');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+/* sets primary & secondary fonts
+----------------------------------------------   */
+$font-primary: 'Nobile', serif, arial;
+$font-secondary: 'Merriweather', serif, arial;
+
+/* to extend primary font
+-------------------------  */
+%basefontPrimary {
+	font-family: $font-primary;
+	font-weight: normal;
+	margin:0;
+	padding:0;
+	@include clearfix;
+
+}
+
+%basefontSecondary {
+	font-family: $font-secondary;
+	font-weight: normal;
+	@include clearfix;
+
+}
+
+%googleicons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 99%;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	@extend %basefontPrimary;	
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 140%;
+	@extend %basefontPrimary;
+	color:lighten($black,5);
+	margin-bottom: .6em
+	$contrasted-dark-default;
+	$contrasted-light-default: $white;
+
+
+}
+
+h2 {
+	font-size: 32px;
+
+	line-height: 140%;
+	@extend %basefontPrimary;
+	color:$lightred;
+	margin-bottom: .5em
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 130%;
+	@extend %basefontPrimary;
+	margin-bottom: .4em;
+	color:$lightred;
+	$contrasted-dark-default:  $darkred;
+	$contrasted-light-default: $regcopy;
+}
+
+h4 {
+	font-size: 24px;
+	line-height: 130%;
+	color:lighten($black,5);
+	margin-bottom: .3em;
+	@extend %basefontPrimary;
+
+}
+
+h5 {
+	font-size: 22px;
+	line-height: 120%;
+	color:$lightred;
+	@extend %basefontPrimary;
+	margin-bottom: .3em;
+}
+
+h6 {
+	font-size: 20px;
+	line-height: 120%;
+	@extend %basefontPrimary;
+	margin-bottom: .3em;
+	color:$lightred;
+}
+
+
+p {
+	font-size: 15px;
+	line-height: 150%;
+	@extend %basefontSecondary;
+	color:lighten($black,7);
+	margin-bottom: .3em;
+	&:focus {
+		outline: none;
+	}
+	
+}
+
+
+a {
+	text-decoration: none;
+	cursor:pointer;
+	background:transparent;
+	font-size: 15px;
+	@include animation('slide-down 5s 3');
+	color:darken($green,5);
+	&:focus {
+		outline: none;
+	}//focus
+	&:active {
+		outline: none;
+	}//active
+	&:hover {
+		color:darken($green,8);
+		outline: none;
+	}//hover
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+	&:focus {
+		outline: none;
+	}
+
+}//img
+
+

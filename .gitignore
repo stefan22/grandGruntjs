@@ -22,17 +22,12 @@ bower_components/*
 *.rar
 *.tar
 *.zip
-node_modules
-node-install
-bower_components
 .DS_Store
 .sass-cache
 .git
 CVS
 .svn
 .hg
-_*
-npm-debug.log
 
 # Logs and databases #
 ######################
@@ -44,7 +39,6 @@ npm-debug.log
 ######################
 .DS_Store
 .DS_Store?
-._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db

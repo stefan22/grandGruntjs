@@ -1,0 +1,117 @@
+/* Compass Mixin
+   Set the specified bg-color and it calculates/outputs a 
+   dark-or-light contrasted text color.
+----------------------------------------------------------------     */
+@import "compass/utilities/color/contrast";
+$contrasted-dark-default:  $lightred;
+$contrasted-light-default: $white;
+
+/* default-border-radius -> border-radius
+----------------------------------------------------   */
+$default-border-radius:4px;
+
+
+/* single-text-shadow-defaults
+--------------------------------------------------      */
+$default-text-shadow-h-offset: -1px;  
+$default-text-shadow-h-offset: 0px;
+$default-text-shadow-blur: 1px;
+$default-text-shadow-spread: false;
+$default-text-shadow-color: rgba(99,99,99,.7);
+
+
+/*  red
+=========================================                         */
+
+.button-red {
+	 	@extend .botone;
+		color: lighten($blue,10);
+		background-color: $blue;
+		border-color: lighten($blue,20);
+		@include single-text-shadow;
+		&:hover {
+			color: darken($blue,5);
+		    background-color: darken($blue,7);
+		    border-color: darken($blue,10);
+		}//hover
+		&:focus {
+			border: none;
+			outline: none;
+			@include single-text-shadow;
+		}
+
+}//button-red
+
+
+/* main button
+==========================================                          */
+.botone {
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+  	font-family: $font-secondary;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+   -webkit-appearance: button;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    text-transform: none;
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+
+
+
+}//bottone
+
+
+/* animations/keyframes
+----------------------------------*/
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+@include keyframes(slide-down) {
+  0% { opacity: 1; }
+  90% { opacity: 0; }
+}
+
+
+
+
+
+
+

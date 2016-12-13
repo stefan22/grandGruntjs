@@ -1,0 +1,46 @@
+/*  Main body layout
+------------------------------------------------    */
+
+body {
+	
+	height: 100%;
+	font-family: $font-secondary;
+	
+	font-size: 14px;
+	line-height: 150%;
+	margin:0;
+	#mainWrapper {
+		min-height: 100%;
+		overflow-x: hidden;
+		#wrapper {
+			overflow: visible;
+			padding-bottom: 312px;
+			#top {
+				background-color: $blue;
+				color: $blue;
+				#skip {
+					a 	{
+						position: absolute;
+						left: 0;
+						top: -300px;
+						width: 1px;
+						height: 1px;
+						overflow: hidden;
+						&:active {
+							@extend a;
+						}
+						&:visited {
+							@extend a;
+						}//visited
+						&:hover {
+							@extend a;
+						}//hover
+					}//a
+				}//skip
+
+			}//top
+		}//wrapper
+
+	}//mainWrapper
+}//body
+

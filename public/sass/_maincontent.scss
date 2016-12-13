@@ -1,0 +1,75 @@
+/*  maincontent
+-------------------------------- */
+
+#mainContent {
+	&:focus {
+		outline: none;
+	}
+	.mainpad {
+
+		margin-bottom:2em;
+	}//mainpad
+	
+	#maintop {
+		
+		#featureBanner {
+			border-bottom: 1px dotted $background;
+			margin-bottom: 2em;
+			figure#bannerCaption {
+				margin:1.25em 0;
+				background-color: $background;
+				padding:.5em .75em;
+				@include border-radius;
+				
+				p {
+
+				}
+				h4 {
+					margin-bottom: .5em;
+					
+				}
+			}//figure
+		}//featureBanner
+
+	}//maintop
+
+	#mainmiddle {
+		
+		.apiarea {
+			margin: 2em 0;
+			.headline > {
+				margin-bottom: .5em;
+				i.material-icons {
+					color:$lightred;
+					font-size: 24px;
+					line-height: 99%;
+					vertical-align: middle;
+				}//material-icons
+
+			}//headline
+
+		}//apiarea
+	}//mainmiddle
+
+	#mainbottom {
+		
+		.apiarea {
+			margin-bottom: 3em;
+			.headline {
+				margin-bottom: .5em;
+				i.material-icons {
+					color:$lightred;
+					font-size: 24px;
+					line-height: 99%;
+					vertical-align: middle;
+				}//material-icons
+			}//headline
+
+		}//apiarea
+	}//mainbottom
+
+}//mainContent
+
+
+
+
