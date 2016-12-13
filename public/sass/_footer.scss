@@ -4,14 +4,14 @@
 .footer#mainFooter {
 	padding:0 !important;
 	position: relative;
-	margin-top: -312px;
-	min-height: 312px;
+	margin-top: -306px;
+	min-height: 306px;
 	clear: both;
 	box-shadow: 0 4px 8px -8px rgba(0,0,0,.2) inset;
 	border-top:1px solid darken($background,15);
 	background-color: $background;
 	#topfoot.container {
-		padding:0;
+		padding:0 .5em;
 		#footer-content {
 				h5 {
 					margin-bottom: .75em;
@@ -19,12 +19,14 @@
 			#socialIcons {
 				p {
 					margin-bottom: .75em;	
+					font-size: 14px;
 				}//p
 				a {
 					display: inline-block;
 					margin-left: .5em;
 					max-height: 55px;
 					max-width: 55px;
+					font-size: 14px;
 				}//a
 
 			}//socialIcons
@@ -32,6 +34,7 @@
 				a {
 					color:$lightred;
 					text-decoration: underline;
+					font-size: 14px;
 				}//a
 			}//relatedLinks
 			#moreAboutUs {
@@ -43,6 +46,7 @@
 				margin-bottom: 3em;
 				p {
 					color:lighten($black,7);
+					font-size: 14px;
 				}
 				
 				h5 {
@@ -65,11 +69,11 @@
 		.container {
 			padding:0;
 			.row {
-				padding-top:1.5em;
+				
 				.copyright {
 					text-align: right;
 					vertical-align: middle;
-					line-height: 69px;
+					line-height: 82px;
 					margin-bottom: 0;
 					color:$black;
 					font-size: 14px;
