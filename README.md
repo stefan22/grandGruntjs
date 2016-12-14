@@ -23,7 +23,7 @@
   
   <br />
   
-  
+  @mixin tablet
   ![tablet](screenshot-tablet.png?raw=true "tablet")
   
 
