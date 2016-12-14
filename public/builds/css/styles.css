@@ -272,6 +272,7 @@ img:focus {
 
 /* animations/keyframes
 ----------------------------------*/
+/*use this*/
 @-webkit-keyframes slide-down {
   0% {
     opacity: 1;
@@ -312,6 +313,16 @@ img:focus {
     opacity: 0;
   }
 }
+/*
+---------------------------------
+
+Media Queries
+
+--------------------------------- */
+/* 320 - 767 */
+/* 768 - 991  */
+/* 992 - 1199 */
+/* 1200 >*/
 /*  Main body layout
 ------------------------------------------------    */
 /* line 4, ../../sass/_mainlayout.scss */
@@ -396,12 +407,18 @@ header#header #brandz h3 {
   margin-bottom: 0;
   min-height: 58px;
 }
-/* line 58, ../../sass/_navlayout.scss */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 54, ../../sass/_navlayout.scss */
+  #mainmenu .navbar {
+    min-height: 52px;
+  }
+}
+/* line 61, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default, #mainmenu .navbar-collapse, #mainmenu .navbar-default .navbar-form {
   border-color: transparent;
   background-color: #a62319;
 }
-/* line 64, ../../sass/_navlayout.scss */
+/* line 67, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-collapse .navbar-nav > li a, #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:active, #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:visited, #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-form .navbar-nav > li a, #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover {
   color: #f7f7f7;
   letter-spacing: .15px;
@@ -410,56 +427,63 @@ header#header #brandz h3 {
   font-weight: lighter;
   text-shadow: 0px 0px 5px rgba(109, 37, 37, 0.5);
 }
-/* line 73, ../../sass/_navlayout.scss */
+/* line 76, ../../sass/_navlayout.scss */
 #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-collapse .navbar-nav > li a:hover, #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover {
   color: #050505;
   text-decoration: underline;
 }
-/* line 86, ../../sass/_navlayout.scss */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 67, ../../sass/_navlayout.scss */
+  #mainmenu .navbar-default .navbar-nav > li a, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-nav > li a:hover, #mainmenu .navbar-collapse .navbar-nav > li a, #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:active, #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:visited, #mainmenu .navbar-collapse .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-collapse .navbar-nav > li a:hover, #mainmenu .navbar-default .navbar-form .navbar-nav > li a, #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:active, #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:visited, #mainmenu .navbar-default .navbar-form .navbar-nav > li body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .navbar-nav > li a:hover {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+}
+/* line 93, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-home a i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover i.material-icons {
   font-size: 14px;
 }
-/* line 94, ../../sass/_navlayout.scss */
+/* line 101, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-one a i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover i.material-icons {
   font-size: 13px;
 }
-/* line 102, ../../sass/_navlayout.scss */
+/* line 109, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-two a i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover i.material-icons {
   font-size: 13px;
 }
-/* line 110, ../../sass/_navlayout.scss */
+/* line 117, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-three a i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover i.material-icons {
   font-size: 13px;
 }
-/* line 118, ../../sass/_navlayout.scss */
+/* line 125, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-four a i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover i.material-icons {
   font-size: 13px;
 }
-/* line 126, ../../sass/_navlayout.scss */
+/* line 133, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-five a i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover i.material-icons {
   font-size: 13px;
 }
-/* line 135, ../../sass/_navlayout.scss */
+/* line 142, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-six a b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:active b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:active b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:visited b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:visited b.caret, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a:hover b.caret, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a:hover b.caret {
   margin-left: 5px;
 }
-/* line 138, ../../sass/_navlayout.scss */
+/* line 145, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:focus:hover, #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active {
   background-color: #b3261b;
 }
-/* line 142, ../../sass/_navlayout.scss */
+/* line 149, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six a.dropdown-toggle, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:hover {
   background-color: #a62319;
 }
-/* line 146, ../../sass/_navlayout.scss */
+/* line 153, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:focus:hover, #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip .dropdown-menu > li > a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdown-menu > li > a:hover {
   background-color: #b3261b;
 }
-/* line 149, ../../sass/_navlayout.scss */
+/* line 156, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-six .nav .open > a:focus, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:active, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:visited, #mainmenu #primary-nav ul #nav-six .nav body #mainWrapper #wrapper #top #skip .open > a:focus:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .nav .open > a:focus:hover {
   background-color: #b3261b;
 }
-/* line 153, ../../sass/_navlayout.scss */
+/* line 160, ../../sass/_navlayout.scss */
 #mainmenu #primary-nav ul #nav-six ul.dropdown-menu {
   min-width: 130px;
   top: 105%;

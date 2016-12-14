@@ -104,6 +104,7 @@ $default-text-shadow-color: rgba(99,99,99,.7);
   animation: #{$str};      
 }
 
+/*use this*/
 @include keyframes(slide-down) {
   0% { opacity: 1; }
   90% { opacity: 0; }
@@ -111,6 +112,49 @@ $default-text-shadow-color: rgba(99,99,99,.7);
 
 
 
+
+/*
+---------------------------------
+
+Media Queries
+
+--------------------------------- */
+
+$extraSmall: 320px;
+$small:768px;
+$medium:992px;
+$large:1200px;
+
+
+/* 320 - 767 */
+@mixin small {
+  @media (min-width: #{$extraSmall}) and (max-width: #{$small - 1}) {
+    @content;
+  }
+}
+
+
+
+/* 768 - 991  */
+@mixin tablet {
+  @media (min-width: #{$small}) and (max-width:#{$medium - 1}) {
+     @content;
+  }
+}
+
+/* 992 - 1199 */
+@mixin desktop {
+  @media (min-width: #{$medium}) and (max-width: #{$large - 1}) {
+    @content;
+  }
+}
+
+/* 1200 >*/
+@mixin large {
+  @media (min-width: #{$large}) {
+    @content;
+  }
+}
 
 
 

@@ -54,6 +54,9 @@ header#header {
 	.navbar {
 		margin-bottom: 0;
 		min-height: 58px;
+		@include tablet {
+			min-height: 52px;
+		}
 	}//navbar
 	.navbar-default, .navbar-collapse,.navbar-default .navbar-form {
 		border-color: transparent;
@@ -74,6 +77,10 @@ header#header {
 						color:lighten($black,2);
 						text-decoration: underline;
 					}//hover
+					@include tablet {
+						font-size: 15px;
+						letter-spacing: 0;
+					}//tablet
 				}//a
 			}//li
 		}//navbar-nav
