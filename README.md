@@ -29,20 +29,7 @@
 
 
 
- <hr />
-  
-  <br />
-  
-  
-  ![screenshot4](public/builds/assets/images/screenshot4-top.png?raw=true "screenshot4")
-  
-  
-  <hr />
-  
-  <br />
-  
-  
-  ![screenshot4](public/builds/assets/images/screenshot4-bottom.png?raw=true "screenshot4")
+ 
 
 
 
