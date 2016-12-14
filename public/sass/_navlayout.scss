@@ -29,12 +29,18 @@ header#header {
 			h1 {
 				margin-bottom: .3em;
 				text-align: center;
+				@include tablet {
+					font-size: 34px;
+				}
 				
 
 			}//h1
 			h3 {
 				text-align: center;
 				margin:0;
+				@include tablet {
+					font-size: 26px;
+				}
 					
 				
 			}//h3

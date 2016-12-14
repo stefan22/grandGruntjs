@@ -3,6 +3,7 @@
 @import "compass/reset/";
 
 
+
 /* grabs google fonts
 --------------------------------------------     */
 
@@ -85,6 +86,7 @@ h3 {
 	color:$lightred;
 	$contrasted-dark-default:  $darkred;
 	$contrasted-light-default: $regcopy;
+	
 }
 
 h4 {
@@ -102,6 +104,7 @@ h5 {
 	color:$lightred;
 	@extend %basefontPrimary;
 	margin-bottom: .3em;
+	
 }
 
 h6 {
@@ -134,7 +137,7 @@ a {
 	@include animation('slide-down 5s 3');
 	color:darken($green,5);
 	&:focus {
-		outline: none;
+		outline:none;
 	}//focus
 	&:active {
 		outline: none;

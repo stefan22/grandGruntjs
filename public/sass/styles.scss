@@ -18,7 +18,38 @@
 -----------------------------------      */
 
 
+@include tablet {
+	#maintop {
+		#featureBanner {
+			#bannerCaption {
+				h4 {
+					font-size: 22px;
+				}//h4
+				p {
+					font-size: 13px;
+				}//p
+			}//bannerCaption
+		}//featureBanner
+	}//maintop
 
+
+	#mainmiddle {
+		section.apiarea {
+			h3.headline {
+				font-size:25px;
+				
+			}//h3.headline
+			p {
+				font-size:14px;
+			}//p
+		}//apiarea
+
+
+	}//mainmiddle
+	
+	
+	
+}//tablet
 
 
 
