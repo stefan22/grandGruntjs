@@ -61,13 +61,14 @@
 			}//subfoot
 		}//footer-content
 	}//topfoot.container
+
 	#botfoot {
 		
 		box-shadow: 0 4px 8px -8px rgba(0,0,0,.2) inset;
 		border-top:1px solid darken($lightred,7);
 		background-color: $lightred;
 		.container {
-			padding:0;
+			
 			.row {
 				
 				.copyright {

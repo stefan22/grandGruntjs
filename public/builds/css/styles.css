@@ -585,17 +585,13 @@ header#header #brandz h3 {
   line-height: 98%;
   vertical-align: middle;
 }
-/* line 64, ../../sass/_footer.scss */
+/* line 65, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot {
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
   border-top: 1px solid #871c14;
   background-color: #a62319;
 }
-/* line 69, ../../sass/_footer.scss */
-.footer#mainFooter #botfoot .container {
-  padding: 0;
-}
-/* line 73, ../../sass/_footer.scss */
+/* line 74, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright {
   text-align: right;
   vertical-align: middle;
@@ -604,19 +600,19 @@ header#header #brandz h3 {
   color: #000000;
   font-size: 14px;
 }
-/* line 80, ../../sass/_footer.scss */
+/* line 81, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright .myself {
   color: #000000;
   vertical-align: text-top;
   line-height: 14px;
   font-size: 14px;
 }
-/* line 86, ../../sass/_footer.scss */
+/* line 87, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright span.braggSection {
   vertical-align: text-top;
   line-height: 14px;
 }
-/* line 89, ../../sass/_footer.scss */
+/* line 90, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
   color: #f7f7f7;
   font-size: 14px;
