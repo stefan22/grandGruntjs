@@ -11,8 +11,8 @@
 # Packages #
 ############
 
-node-install/*
-node_modules/*
+#node-install/*
+#node_modules/*
 bower_components/*
 *.7z
 *.dmg
