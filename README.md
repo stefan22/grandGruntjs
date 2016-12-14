@@ -18,7 +18,7 @@
 - added a secondary font and moved google fonts from index page to 
   sass folders.
 - adding all of the files (cause if you clone this folder and then run npm etc... and don't have latest RVN files 
-  installed, then you needto update before running grunt)
+  installed, then you need to update prior to running grunt)
 
 
 <hr />
