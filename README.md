@@ -28,6 +28,14 @@
   @mixin tablet
   ![tablet](screenshot-tablet.png?raw=true "tablet")
   
+  
+  <hr />
+  
+  <br />
+  
+  over 1200px
+  ![desktop](screenshot-over1200.png?raw=true "desktop")
+  
 
 
 
