@@ -17,23 +17,21 @@
 - added a few partials, compass mixes for a more modular look :)
 - added a secondary font and moved google fonts from index page to 
   sass folders.
+- adding all of the files (cause if you clone this folder and then run npm etc... and don't have latest RVN files 
+  installed, then you need to update prior to running grunt)
 
 
-
- <hr />
+<hr />
   
   <br />
   
+  @mixin tablet
+  ![tablet](screenshot-tablet.png?raw=true "tablet")
   
-  ![screenshot4](public/builds/assets/images/screenshot4-top.png?raw=true "screenshot4")
-  
-  
-  <hr />
-  
-  <br />
-  
-  
-  ![screenshot4](public/builds/assets/images/screenshot4-bottom.png?raw=true "screenshot4")
+
+
+
+ 
 
 
 
