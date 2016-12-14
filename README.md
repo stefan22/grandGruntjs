@@ -17,7 +17,8 @@
 - added a few partials, compass mixes for a more modular look :)
 - added a secondary font and moved google fonts from index page to 
   sass folders.
-- adding all of the files
+- adding all of the files (cause if you clone this folder theb run npm etc... and don't have latest RVN files 
+  installed, then you needto update before running grunt)
 
 
 <hr />
