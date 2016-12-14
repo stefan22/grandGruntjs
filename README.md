@@ -24,7 +24,7 @@
   <br />
   
   
-  ![tablet](public/builds/assets/images/screenshot-tablet.png?raw=true "tablet")
+  ![tablet](screenshot-tablet.png?raw=true "tablet")
   
 
 
