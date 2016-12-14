@@ -17,6 +17,7 @@
 - added a few partials, compass mixes for a more modular look :)
 - added a secondary font and moved google fonts from index page to 
   sass folders.
+- adding all of the files
 
 
 <hr />
