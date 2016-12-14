@@ -19,6 +19,15 @@
   sass folders.
 
 
+<hr />
+  
+  <br />
+  
+  
+  ![tablet](public/builds/assets/images/screenshot-tablet.png?raw=true "tablet")
+  
+
+
 
  <hr />
   
