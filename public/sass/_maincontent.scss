@@ -13,7 +13,7 @@
 	#maintop {
 		
 		#featureBanner {
-			border-bottom: 1px dotted $background;
+			border-bottom: 1px dotted darken($background,12);
 			margin-bottom: 2em;
 			figure#bannerCaption {
 				margin:1.25em 0;
@@ -22,10 +22,19 @@
 				@include border-radius;
 				
 				p {
-					font-size: 14px;	
+					font-size: 14px;
+					@include small {
+						font-size: 13px;
+					}	
 				}
 				h4 {
 					margin-bottom: .5em;
+					@include small {
+						font-size: 22px;
+						p {
+							font-size: 13px;
+						}
+					}
 					
 				}
 			}//figure
@@ -38,6 +47,7 @@
 		.apiarea {
 			margin: 2em 0;
 			.headline > {
+				
 				margin-bottom: .5em;
 				i.material-icons {
 					color:$lightred;
@@ -54,9 +64,10 @@
 	#mainbottom {
 		
 		.apiarea {
-			margin-bottom: 3em;
+			margin-bottom: 2em;
 			.headline {
 				margin-bottom: .5em;
+				
 				i.material-icons {
 					color:$lightred;
 					font-size: 24px;

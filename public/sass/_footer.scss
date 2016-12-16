@@ -11,7 +11,7 @@
 	border-top:1px solid darken($background,15);
 	background-color: $background;
 	#topfoot.container {
-		padding:0 .5em;
+		/* dont add padding!*/
 		#footer-content {
 				h5 {
 					margin-bottom: .75em;
@@ -29,6 +29,7 @@
 					font-size: 13px;
 					@include tablet {
 						max-width: 40px;
+						margin-left: 0;
 					}
 				}//a
 
@@ -94,7 +95,7 @@
 					.myself {
 						color:$black;
 						vertical-align: text-top;
-						line-height: 13px;
+						line-height: 20px;
 						font-size: 13px;
 						@include small {
 							font-size: 12px;
@@ -104,7 +105,11 @@
 					}//myself
 				span.braggSection {
 					vertical-align: text-top;
-					line-height: 13px;
+					line-height: 20px;
+					margin-right: 2.5em;
+					@include small {
+						margin-right:1em;
+					}
 					a.sl {
 						color:$white;
 						font-size: 13px;

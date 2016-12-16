@@ -62,8 +62,8 @@ h1 {
 	line-height: 140%;
 	@extend %basefontPrimary;
 	color:lighten($black,5);
-	margin-bottom: .6em
-	$contrasted-dark-default;
+	margin-bottom: .6em;
+	$contrasted-dark-default:$black;
 	$contrasted-light-default: $white;
 
 

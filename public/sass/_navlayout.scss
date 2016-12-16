@@ -31,6 +31,11 @@ header#header {
 				text-align: center;
 				@include tablet {
 					font-size: 34px;
+					line-height: 110%;
+				}
+				@include small {
+					font-size: 30px;
+					line-height:110%;
 				}
 				
 
@@ -40,9 +45,18 @@ header#header {
 				margin:0;
 				@include tablet {
 					font-size: 26px;
+					line-height: 	110%;
+					margin-bottom: .3em;
 				}
-					
+				@include small {
+					font-size: 26px;
+					line-height:110%;
+					margin-bottom: .3em;
+
+				}
 				
+
+						
 			}//h3
 		}//brandz
 	
