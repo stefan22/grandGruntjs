@@ -4,7 +4,7 @@
 --------------------------------------------     */
 @import url("https://fonts.googleapis.com/css?family=Nobile");
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
-/* line 5, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a,
@@ -29,45 +29,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img, body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip a:hover img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -453,7 +453,7 @@ header#header #brandz h3 {
   color: #f7f7f7;
   letter-spacing: .15px;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 168%;
   font-weight: lighter;
   text-shadow: 0px 0px 5px rgba(109, 37, 37, 0.5);
 }
@@ -518,6 +518,12 @@ header#header #brandz h3 {
   min-width: 130px;
   top: 105%;
   background-color: #b3261b;
+}
+/* line 184, ../../sass/_navlayout.scss */
+#mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a, #mainmenu #primary-nav ul #nav-six ul.dropdown-menu body #mainWrapper #wrapper #top #skip li > a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a:active, #mainmenu #primary-nav ul #nav-six ul.dropdown-menu body #mainWrapper #wrapper #top #skip li > a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a:visited, #mainmenu #primary-nav ul #nav-six ul.dropdown-menu body #mainWrapper #wrapper #top #skip li > a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six ul.dropdown-menu li > a:hover {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: .5px;
 }
 
 /*  maincontent

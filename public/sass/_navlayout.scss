@@ -88,7 +88,7 @@ header#header {
 					color:$white;
 					letter-spacing: .15px;
 					font-size: 16px;
-					line-height: 150%;
+					line-height: 168%;
 					font-weight: lighter;
 					$contrasted-light-default: $white;
 					text-shadow: 0px 0px 5px rgba(109, 37, 37, 0.5);
@@ -181,6 +181,11 @@ header#header {
 						min-width: 130px;
 						top:105%;
 						background-color: lighten($lightred,3);
+						li > a {
+							font-size: 14px;
+							font-weight: normal;
+							letter-spacing: .5px;	
+						}//li a submenu
 					}//dropdown-menu
 					
 					
