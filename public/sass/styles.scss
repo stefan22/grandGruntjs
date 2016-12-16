@@ -17,8 +17,30 @@
 	
 -----------------------------------      */
 
+@include small {
+
+	#logo a img {
+		margin: 0 auto;
+	}
+
+	.apiarea {
+		h3.headline {
+			font-size: 25px;
+		}//h3
+		p {
+			font-size: 14px;
+		}
+
+	}//apiarea
+
+
+}//small devices
+
+
 
 @include tablet {
+
+
 	#maintop {
 		#featureBanner {
 			#bannerCaption {
