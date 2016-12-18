@@ -19,6 +19,8 @@
   sass folders.
 - adding all of the files (cause if you clone this folder and then run npm etc... and don't have latest RVN files 
   installed, then you need to update prior to running grunt)
+- so to download just do git clone -no need to npm/bower/bundler anything -  then run grunt on terminal to load page
+  to browser.
 
 
 <hr />
