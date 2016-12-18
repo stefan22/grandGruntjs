@@ -60,6 +60,36 @@
   
   nexus sc3 -iphone6 footer 
   ![sixFlags mobile](nexus_footer.png?raw=true "mobile" target="_blank")
+  
+  
+  
+  <hr />
+  
+  <br />
+  
+  galaxy S5 top
+  ![sixFlags mobile](Screen Shot 2016-12-18 at 2.15.12 am.png?raw=true "mobile" target="_blank")
+  
+  
+  <hr />
+  
+  <br />
+  
+  galaxy S5 mid
+  ![sixFlags mobile](Screen Shot 2016-12-18 at 2.15.25 am.png?raw=true "mobile" target="_blank")
+  
+  
+  <hr />
+  
+  <br />
+  
+  galaxy S5 footer
+  ![sixFlags mobile](galaxys5footer.png?raw=true "mobile" target="_blank")
+  
+  
+  
+  
+  
 
 
 
