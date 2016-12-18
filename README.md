@@ -34,8 +34,8 @@
   
   <br />
   
-  sixFlags iphone6 (awesome screenshot ins't that awesome - cropping on my footer) see nexus sc3 for footer
-  ![sixFlags mobile](iphone6screenshot.png?raw=true "mobile" target="_blank")
+  sixFlags iphone6 - see nexus sc3 for footer
+  ![sixFlags mobile](iphone6plus.png?raw=true "mobile" target="_blank")
   
   
   <hr />
