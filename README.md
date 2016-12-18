@@ -34,7 +34,7 @@
   
   <br />
   
-  sixFlags iphone6 (awesome screenshot ins't that awesome - cropping on my footer)
+  sixFlags iphone6 (awesome screenshot ins't that awesome - cropping on my footer) see nexus sc3 for footer
   ![sixFlags mobile](iphone6screenshot.png?raw=true "mobile" target="_blank")
   
   
@@ -56,7 +56,7 @@
   
   <br />
   
-  nexus sc3
+  nexus sc3 -iphone6 footer also looks like this when 'awesome' app isn't crapping on it
   ![sixFlags mobile](nexus_footer.png?raw=true "mobile" target="_blank")
 
 
