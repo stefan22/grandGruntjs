@@ -1013,26 +1013,42 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
     margin: 0 auto;
   }
 
-  /* line 25, ../../sass/styles.scss */
+  /* line 24, ../../sass/styles.scss */
+  .navbar-default .navbar-toggle:hover, .navbar-default
+  .navbar-toggle:focus {
+    background-color: #aa241a;
+  }
+
+  /* line 30, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar {
     padding: 9px 10px 4px;
     border-color: #f7f7f7;
   }
 }
 @media (min-width: 380px) and (max-width: 767px) and (min-width: 380px) and (max-width: 767px) {
-  /* line 27, ../../sass/styles.scss */
+  /* line 32, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar:focus {
     background-color: #aa241a;
   }
 }
+@media (min-width: 380px) and (max-width: 767px) and (max-width: 380px) {
+  /* line 30, ../../sass/styles.scss */
+  #mainmenu button.navbar-toggle.btn-navbar {
+    background-color: #aa241a;
+  }
+  /* line 39, ../../sass/styles.scss */
+  #mainmenu button.navbar-toggle.btn-navbar:focus, #mainmenu button.navbar-toggle.btn-navbar:active, #mainmenu button.navbar-toggle.btn-navbar:visited, #mainmenu button.navbar-toggle.btn-navbar:hover {
+    background-color: #aa241a !important;
+  }
+}
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 35, ../../sass/styles.scss */
+  /* line 48, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar span.icon-bar {
     background: #f7f7f7;
     width: 40px;
     height: 2.75px;
   }
-  /* line 40, ../../sass/styles.scss */
+  /* line 53, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar span.menu-text {
     text-transform: lowercase;
     line-height: 22px;
@@ -1043,58 +1059,58 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
     color: #0d0d0d;
   }
 
-  /* line 52, ../../sass/styles.scss */
+  /* line 67, ../../sass/styles.scss */
   .apiarea h3.headline {
     font-size: 25px;
   }
-  /* line 55, ../../sass/styles.scss */
+  /* line 70, ../../sass/styles.scss */
   .apiarea p {
     font-size: 14px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 64, ../../sass/styles.scss */
+  /* line 79, ../../sass/styles.scss */
   #maintop #featureBanner #bannerCaption h4 {
     font-size: 22px;
   }
-  /* line 67, ../../sass/styles.scss */
+  /* line 82, ../../sass/styles.scss */
   #maintop #featureBanner #bannerCaption p {
     font-size: 13px;
   }
 
-  /* line 75, ../../sass/styles.scss */
+  /* line 90, ../../sass/styles.scss */
   #mainmiddle section.apiarea h3.headline {
     font-size: 25px;
   }
-  /* line 78, ../../sass/styles.scss */
+  /* line 93, ../../sass/styles.scss */
   #mainmiddle section.apiarea p {
     font-size: 14px;
   }
 }
 /* Rules for using icons as black on a light background. */
-/* line 87, ../../sass/styles.scss */
+/* line 102, ../../sass/styles.scss */
 .material-icons.md-dark {
   color: rgba(0, 0, 0, 0.85);
   font-size: 36px;
   line-height: 100%;
 }
-/* line 91, ../../sass/styles.scss */
+/* line 106, ../../sass/styles.scss */
 .material-icons.md-dark:hover {
   color: rgba(40, 130, 111, 0.92);
 }
 
-/* line 95, ../../sass/styles.scss */
+/* line 110, ../../sass/styles.scss */
 .material-icons.md-dark.md-inactive {
   color: rgba(0, 0, 0, 0.26);
 }
 
 /* Rules for using icons as white on a dark background. */
-/* line 102, ../../sass/styles.scss */
+/* line 117, ../../sass/styles.scss */
 .material-icons.md-light {
   color: white;
 }
 
-/* line 106, ../../sass/styles.scss */
+/* line 121, ../../sass/styles.scss */
 .material-icons.md-light.md-inactive {
   color: rgba(255, 255, 255, 0.3);
 }

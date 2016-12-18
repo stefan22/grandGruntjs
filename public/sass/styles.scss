@@ -21,14 +21,27 @@
     #logo a img {
         margin: 0 auto;
     }
+    .navbar-default .navbar-toggle:hover, .navbar-default
+    .navbar-toggle:focus {
+        background-color:lighten($lightred, 1);
+
+    }//button bg
     #mainmenu {
         button.navbar-toggle.btn-navbar {
             @include small {
                 &:focus {
-                background-color: lighten($lightred,1);
-            }//button focus
+                    background-color: lighten($lightred,1);
+                }//button focus
 
             }//small
+             @include xsmall {
+                background-color: lighten($lightred,1);
+                &:focus, &:active, &:visited, &:hover {
+                    background-color:lighten($lightred,1) !important;
+                }//pseudos
+
+            }//xsmall
+
             
             padding: 9px 10px 4px;
             border-color: $white;
@@ -47,6 +60,8 @@
                 color: lighten($black, 5);
             } //span-menu-text
         } //button(border)
+        
+
     } //mainmenu
     .apiarea {
         h3.headline {
