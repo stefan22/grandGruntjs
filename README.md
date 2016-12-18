@@ -26,15 +26,7 @@
   <br />
   
   sixFlags desktop
-  ![sixFlags desktop](sixflagsDesktop.png?raw=true "desktop")
-  
-  
-  <hr />
-  
-  <br />
-  
-  sixFlags iphone6 (awesome screenshot ins't that awesome - cropping on my footer)
-  ![sixFlags mobile](iphone6screenshot.png?raw=true "mobile")
+  ![sixFlags desktop](sixFlagsDesktop.png?raw=true "desktop")
   
   
   
