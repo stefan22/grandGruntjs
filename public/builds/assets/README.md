@@ -25,6 +25,55 @@
   
   <br />
   
+  sixFlags desktop
+  ![sixFlags desktop](sixflagsDesktop.png?raw=true "desktop")
+  
+  
+  <hr />
+  
+  <br />
+  
+  sixFlags iphone6 (awesome screenshot ins't that awesome - cropping on my footer)
+  ![sixFlags mobile](iphone6screenshot.png?raw=true "mobile")
+  
+  
+  
+  <hr />
+  
+  <br />
+  
+  sixFlags iphone6 (awesome screenshot ins't that awesome - cropping on my footer)
+  ![sixFlags mobile](iphone6screenshot.png?raw=true "mobile")
+  
+  
+  <hr />
+  
+  <br />
+  
+  nexus sc1 
+  ![sixFlags mobile](nexus_screenshot.png?raw=true "mobile")
+  
+  <hr />
+  
+  <br />
+  
+  nexus sc2
+  ![sixFlags mobile](nexus_mid.png?raw=true "mobile")
+  
+  <hr />
+  
+  <br />
+  
+  nexus sc3
+  ![sixFlags mobile](nexus_footer.png?raw=true "mobile")
+
+
+
+
+<hr />
+  
+  <br />
+  
   @mixin tablet
   ![tablet](screenshot-tablet.png?raw=true "tablet")
   
