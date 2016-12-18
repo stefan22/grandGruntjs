@@ -26,7 +26,7 @@
   <br />
   
   sixFlags desktop - click to zoom-in (100%)
-  ![sixFlags desktop](sixFlagsDesktop.png?raw=true "desktop")
+  ![sixFlags desktop](sixFlagsDesktop.png?raw=true "desktop" target="_blank")
   
   
   
