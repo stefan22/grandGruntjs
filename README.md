@@ -35,7 +35,7 @@
   <br />
   
   sixFlags iphone6 (awesome screenshot ins't that awesome - cropping on my footer)
-  ![sixFlags mobile](iphone6screenshot.png?raw=true "mobile")
+  ![sixFlags mobile](iphone6screenshot.png?raw=true "mobile" target="_blank")
   
   
   <hr />
@@ -43,21 +43,21 @@
   <br />
   
   nexus sc1 
-  ![sixFlags mobile](nexus_screenshot.png?raw=true "mobile")
+  ![sixFlags mobile](nexus_screenshot.png?raw=true "mobile" target="_blank")
   
   <hr />
   
   <br />
   
   nexus sc2
-  ![sixFlags mobile](nexus_mid.png?raw=true "mobile")
+  ![sixFlags mobile](nexus_mid.png?raw=true "mobile" target="_blank")
   
   <hr />
   
   <br />
   
   nexus sc3
-  ![sixFlags mobile](nexus_footer.png?raw=true "mobile")
+  ![sixFlags mobile](nexus_footer.png?raw=true "mobile" target="_blank")
 
 
 
@@ -67,7 +67,7 @@
   <br />
   
   @mixin tablet
-  ![tablet](screenshot-tablet.png?raw=true "tablet")
+  ![tablet](screenshot-tablet.png?raw=true "tablet" target="_blank")
   
   
   <hr />
