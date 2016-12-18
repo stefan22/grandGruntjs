@@ -56,7 +56,7 @@
   
   <br />
   
-  nexus sc3 -iphone6 footer also looks like this when 'awesome' app isn't crapping on it
+  nexus sc3 -iphone6 footer 
   ![sixFlags mobile](nexus_footer.png?raw=true "mobile" target="_blank")
 
 
