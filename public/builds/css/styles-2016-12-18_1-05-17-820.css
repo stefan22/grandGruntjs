@@ -403,7 +403,7 @@ header#header #brandz h1 {
     line-height: 110%;
   }
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 26, ../../sass/_navlayout.scss */
   header#header #brandz h1 {
     font-size: 30px;
@@ -423,7 +423,7 @@ header#header #brandz h3 {
     margin-bottom: .3em;
   }
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 38, ../../sass/_navlayout.scss */
   header#header #brandz h3 {
     font-size: 26px;
@@ -519,7 +519,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .na
 #mainmenu #primary-nav ul #nav-home a i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited i.material-icons, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover i.material-icons {
   font-size: 14px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 101, ../../sass/_navlayout.scss */
   #mainmenu #primary-nav ul #nav-home a, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:active, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:visited, #mainmenu #primary-nav ul #nav-home body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-home a:hover {
     font-size: 14px;
@@ -530,7 +530,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .na
 #mainmenu #primary-nav ul #nav-one a i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited i.material-icons, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover i.material-icons {
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 111, ../../sass/_navlayout.scss */
   #mainmenu #primary-nav ul #nav-one a, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:active, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:visited, #mainmenu #primary-nav ul #nav-one body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-one a:hover {
     font-size: 14px;
@@ -541,7 +541,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .na
 #mainmenu #primary-nav ul #nav-two a i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited i.material-icons, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover i.material-icons {
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 121, ../../sass/_navlayout.scss */
   #mainmenu #primary-nav ul #nav-two a, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:active, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:visited, #mainmenu #primary-nav ul #nav-two body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-two a:hover {
     font-size: 14px;
@@ -552,7 +552,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .na
 #mainmenu #primary-nav ul #nav-three a i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited i.material-icons, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover i.material-icons {
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 131, ../../sass/_navlayout.scss */
   #mainmenu #primary-nav ul #nav-three a, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:active, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:visited, #mainmenu #primary-nav ul #nav-three body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-three a:hover {
     font-size: 14px;
@@ -563,7 +563,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .na
 #mainmenu #primary-nav ul #nav-four a i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited i.material-icons, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover i.material-icons {
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 141, ../../sass/_navlayout.scss */
   #mainmenu #primary-nav ul #nav-four a, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:active, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:visited, #mainmenu #primary-nav ul #nav-four body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-four a:hover {
     font-size: 14px;
@@ -574,14 +574,14 @@ body #mainWrapper #wrapper #top #skip #mainmenu .navbar-default .navbar-form .na
 #mainmenu #primary-nav ul #nav-five a i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited i.material-icons, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover i.material-icons, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover i.material-icons {
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 151, ../../sass/_navlayout.scss */
   #mainmenu #primary-nav ul #nav-five a, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:active, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:visited, #mainmenu #primary-nav ul #nav-five body #mainWrapper #wrapper #top #skip a:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-five a:hover {
     font-size: 14px;
     line-height: 150%;
   }
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 163, ../../sass/_navlayout.scss */
   #mainmenu #primary-nav ul #nav-six a.dropdown-toggle, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:active, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:active, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:visited, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:visited, #mainmenu #primary-nav ul #nav-six body #mainWrapper #wrapper #top #skip a.dropdown-toggle:hover, body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six a.dropdown-toggle:hover {
     font-size: 14px;
@@ -696,7 +696,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   font-size: 14px;
   margin-bottom: 1.2em;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 29, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption p {
     font-size: 13px;
@@ -711,7 +711,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   vertical-align: text-top;
   font-size: 22px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 36, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption h4 {
     font-size: 22px;
@@ -777,28 +777,18 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
 .footer#mainFooter #topfoot.container #footer-content h5 {
   margin-bottom: .75em;
 }
-@media (max-width: 380px) {
-  /* line 16, ../../sass/_footer.scss */
-  .footer#mainFooter #topfoot.container #footer-content h5 {
-    font-size: 20px;
-  }
-  /* line 20, ../../sass/_footer.scss */
-  .footer#mainFooter #topfoot.container #footer-content h5 i.material-icons.md-dark {
-    font-size: 18px;
-  }
-}
-/* line 27, ../../sass/_footer.scss */
+/* line 20, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content #socialIcons p {
   margin-bottom: .75em;
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 27, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 20, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #socialIcons p {
     margin-bottom: 1em;
   }
 }
-/* line 34, ../../sass/_footer.scss */
+/* line 27, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
   display: inline-block;
   margin-left: .5em;
@@ -806,8 +796,8 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   max-width: 55px;
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 34, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 27, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
     max-width: 40px;
     margin-left: 0px;
@@ -815,56 +805,34 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 34, ../../sass/_footer.scss */
+  /* line 27, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
     max-width: 40px;
     margin-left: 0;
   }
 }
-@media (max-width: 380px) {
-  /* line 34, ../../sass/_footer.scss */
-  .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
-    max-width: 40px;
-  }
-}
-@media (max-width: 380px) {
-  /* line 56, ../../sass/_footer.scss */
-  .footer#mainFooter #topfoot.container #footer-content #relatedLinks h5 {
-    font-size: 20px;
-  }
-  /* line 58, ../../sass/_footer.scss */
-  .footer#mainFooter #topfoot.container #footer-content #relatedLinks h5 i.material-icons.md-dark {
-    font-size: 18px;
-  }
-}
-@media (max-width: 380px) {
-  /* line 65, ../../sass/_footer.scss */
-  .footer#mainFooter #topfoot.container #footer-content #relatedLinks ul.related span {
-    display: none;
-  }
-}
-/* line 70, ../../sass/_footer.scss */
-.footer#mainFooter #topfoot.container #footer-content #relatedLinks ul.related li a {
+/* line 45, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #relatedLinks li a {
   color: #a62319;
   text-decoration: underline;
   font-size: 13px;
   vertical-align: text-bottom;
 }
-/* line 77, ../../sass/_footer.scss */
-.footer#mainFooter #topfoot.container #footer-content #relatedLinks ul.related li i.material-icons {
+/* line 51, ../../sass/_footer.scss */
+.footer#mainFooter #topfoot.container #footer-content #relatedLinks li i.material-icons {
   vertical-align: text-top;
   font-size: 13px;
 }
-/* line 93, ../../sass/_footer.scss */
+/* line 61, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content .subfoot {
   margin-bottom: 3em;
 }
-/* line 95, ../../sass/_footer.scss */
+/* line 63, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content .subfoot p {
   color: #121212;
   font-size: 13px;
 }
-/* line 100, ../../sass/_footer.scss */
+/* line 68, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
   color: #a62319;
   font-size: 22px;
@@ -872,38 +840,32 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   vertical-align: middle;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 100, ../../sass/_footer.scss */
+  /* line 68, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
     font-size: 19px;
   }
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 100, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 68, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
     font-size: 18px;
   }
 }
-/* line 116, ../../sass/_footer.scss */
+/* line 84, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot {
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
   border-top: 1px solid #871c14;
   background-color: #a62319;
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 123, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 91, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row #bottomlogo img {
     max-width: 60px !important;
     display: inline-block;
     vertical-align: middle;
   }
 }
-@media (max-width: 380px) {
-  /* line 123, ../../sass/_footer.scss */
-  .footer#mainFooter #botfoot .container .row #bottomlogo img {
-    padding-top: .3em;
-  }
-}
-/* line 134, ../../sass/_footer.scss */
+/* line 98, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright {
   text-align: right;
   vertical-align: middle;
@@ -912,8 +874,8 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   font-size: 13px;
   color: #000000;
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 134, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 98, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright {
     line-height: 18px;
     font-size: 12px;
@@ -922,82 +884,58 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
     min-height: 30px;
   }
 }
-@media (max-width: 380px) {
-  /* line 134, ../../sass/_footer.scss */
+@media (max-width: 320px) {
+  /* line 98, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright {
     padding-top: 10px !important;
-    line-height: 18px;
-    font-size: 12px;
   }
 }
-/* line 153, ../../sass/_footer.scss */
+/* line 115, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright .myself {
   color: #000000;
   vertical-align: text-top;
   line-height: 20px;
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 153, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 115, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright .myself {
     font-size: 12px;
     line-height: 18px;
     vertical-align: middle;
   }
 }
-@media (max-width: 380px) {
-  /* line 153, ../../sass/_footer.scss */
-  .footer#mainFooter #botfoot .container .row .copyright .myself {
-    float: right;
-  }
-}
-/* line 167, ../../sass/_footer.scss */
+/* line 126, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright span.braggSection {
   vertical-align: text-top;
   line-height: 20px;
   margin-right: 2.5em;
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 167, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 126, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection {
     margin-right: 1em;
     line-height: 18px;
   }
-  /* line 174, ../../sass/_footer.scss */
+  /* line 133, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection .city {
     float: right;
   }
-  /* line 177, ../../sass/_footer.scss */
+  /* line 136, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection .year {
     float: right;
   }
 }
-@media (max-width: 380px) {
-  /* line 183, ../../sass/_footer.scss */
-  .footer#mainFooter #botfoot .container .row .copyright span.braggSection .city {
-    float: right;
-  }
-  /* line 186, ../../sass/_footer.scss */
-  .footer#mainFooter #botfoot .container .row .copyright span.braggSection .year {
-    float: right;
-  }
-}
-/* line 191, ../../sass/_footer.scss */
+/* line 140, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
   color: #f7f7f7;
   font-size: 13px;
 }
-@media (min-width: 380px) and (max-width: 767px) {
-  /* line 191, ../../sass/_footer.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 140, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
     font-size: 12px;
     line-height: 12px;
-  }
-}
-@media (max-width: 380px) {
-  /* line 191, ../../sass/_footer.scss */
-  .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
-    margin-left: .3em;
   }
 }
 
@@ -1007,7 +945,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
 	*** Styles.scss ***
 	
 -----------------------------------      */
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 21, ../../sass/styles.scss */
   #logo a img, #logo body #mainWrapper #wrapper #top #skip a:active img, body #mainWrapper #wrapper #top #skip #logo a:active img, #logo body #mainWrapper #wrapper #top #skip a:visited img, body #mainWrapper #wrapper #top #skip #logo a:visited img, #logo body #mainWrapper #wrapper #top #skip a:hover img, body #mainWrapper #wrapper #top #skip #logo a:hover img {
     margin: 0 auto;
@@ -1019,13 +957,13 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
     border-color: #f7f7f7;
   }
 }
-@media (min-width: 380px) and (max-width: 767px) and (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) and (min-width: 320px) and (max-width: 767px) {
   /* line 27, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar:focus {
     background-color: #aa241a;
   }
 }
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 35, ../../sass/styles.scss */
   #mainmenu button.navbar-toggle.btn-navbar span.icon-bar {
     background: #f7f7f7;

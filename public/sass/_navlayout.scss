@@ -1,201 +1,220 @@
 /*  top-stripe
 ------------------------------------     */
+
 #brandbanner {
-	background-color: $darkred;
-	height: 3px;
-	width: 100%;
-}//brandbanner
-
-
+    background-color: $darkred;
+    height: 3px;
+    width: 100%;
+} //brandbanner
 
 /* header section
 --------------------------------------    */
+
 header#header {
-	padding:1em 0;
-	background: $white;
-	
-		#logo {
-			a {	
-				display: block;
-			}
-			img {
-				max-width: 230px;
-				
-				
-			}//img
-			
-		}//logo
-		#brandz {
-			h1 {
-				margin-bottom: .3em;
-				text-align: center;
-				@include tablet {
-					font-size: 34px;
-					line-height: 110%;
-				}
-				@include small {
-					font-size: 30px;
-					line-height:110%;
-				}
-				
-
-			}//h1
-			h3 {
-				text-align: center;
-				margin:0;
-				@include tablet {
-					font-size: 26px;
-					line-height: 	110%;
-					margin-bottom: .3em;
-				}
-				@include small {
-					font-size: 26px;
-					line-height:110%;
-					margin-bottom: .3em;
-
-				}
-				
-
-						
-			}//h3
-		}//brandz
-	
-}//header
-
+    padding: 1em 0;
+    background: $white;
+    @include small {}
+    #logo {
+        a {
+            display: block;
+        }
+        img {
+            max-width: 230px;
+        } //img
+    } //logo
+    #brandz {
+        h1 {
+            margin-bottom: .3em;
+            text-align: center;
+            @include tablet {
+                font-size: 34px;
+                line-height: 110%;
+            }
+            @include small {
+                font-size: 30px;
+                line-height: 110%;
+            }
+        } //h1
+        h3 {
+            text-align: center;
+            margin: 0;
+            @include tablet {
+                font-size: 26px;
+                line-height: 110%;
+                margin-bottom: .3em;
+            }
+            @include small {
+                font-size: 26px;
+                line-height: 110%;
+                margin-bottom: .3em;
+            }
+        } //h3
+    } //brandz
+} //header
 #mainmenu {
-	max-height:450px; /* 72px;*/
-	background:$lightred;
-	border-bottom: 2px solid $darkred;
-	margin-bottom: 1px;
-	box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.85);
-	$contrasted-dark-default:$lightred;
-	
-
-	.navbar {
-		margin-bottom: 0;
-		min-height: 58px;
-		@include tablet {
-			min-height: 52px;
-		}
-	}//navbar
-	.navbar-default, .navbar-collapse,.navbar-default .navbar-form {
-		border-color: transparent;
-		background-color:$lightred;
-		.navbar-nav > {
-
-			li {
-				a {
-					color:$white;
-					letter-spacing: .15px;
-					font-size: 16px;
-					line-height: 168%;
-					font-weight: lighter;
-					$contrasted-light-default: $white;
-					text-shadow: 0px 0px 5px rgba(109, 37, 37, 0.5);
-					@extend %basefontSecondary;
-					&:hover {
-						color:lighten($black,2);
-						text-decoration: underline;
-					}//hover
-					@include tablet {
-						font-size: 15px;
-						letter-spacing: 0;
-					}//tablet
-				}//a
-			}//li
-		}//navbar-nav
-	}//navvar-default
-	
-
-	#primary-nav {
-			ul {
-				#nav-home a {
-					i.material-icons {
-						font-size: 14px;
-						@extend %googleicons;
-
-					}//icon
-					
-				}//nav-home a
-				#nav-one a {
-					i.material-icons {
-						font-size: 13px;
-						@extend %googleicons;
-
-					}//nav-one
-					
-				}//nav-home a
-				#nav-two a {
-					i.material-icons {
-						font-size: 13px;
-						@extend %googleicons;
-
-					}//icon
-					
-				}//nav-two a
-				#nav-three a {
-					i.material-icons {
-						font-size: 13px;
-						@extend %googleicons;
-
-					}//icon
-					
-				}//nav-three a
-				#nav-four a {
-					i.material-icons {
-						font-size: 13px;
-						@extend %googleicons;
-
-					}//icon
-					
-				}//nav-four a
-				#nav-five a {
-					i.material-icons {
-						font-size: 13px;
-						@extend %googleicons;
-
-					}//icon
-					
-				}//nav-five a
-
-				#nav-six  {
-					a b.caret {
-						margin-left: 5px;
-					}//caret
-					a.dropdown-toggle:focus, a.dropdown-toggle:active, 
-					 {
-						background-color: lighten($lightred,3);
-					}//dropdown-toggle
-					a.dropdown-toggle:visited,a.dropdown-toggle {
-						background-color: $lightred;
-					}
-					
-					.dropdown-menu > li > a:focus, .dropdown-menu > li > a {
-						background-color: lighten($lightred,3);
-					}//dropdown-menu li a focus
-					.nav .open > a:focus {
-						background-color: lighten($lightred,3);
-					}//nav open a:focus
-
-					ul.dropdown-menu {
-						min-width: 130px;
-						top:105%;
-						background-color: lighten($lightred,3);
-						li > a {
-							font-size: 14px;
-							font-weight: normal;
-							letter-spacing: .5px;	
-						}//li a submenu
-					}//dropdown-menu
-					
-					
-				}//nav-six a
-					
-			}//ul	
-			
-		
-
-	}//primary-nav
-
-
-}//mainmenu
+    max-height: 450px;
+    @include small {}
+    /* 72px;*/
+    background: $lightred;
+    border-bottom: 2px solid $darkred;
+    margin-bottom: 1px;
+    box-shadow: 0px 0px 0px 1px rgba(206, 202, 196, 0.85);
+    $contrasted-dark-default: $lightred;
+    .navbar {
+        margin-bottom: 0;
+        min-height: 58px;
+        @include tablet {
+            min-height: 52px;
+        }
+    } //navbar
+    .navbar-default,
+    .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #eaeaea;
+        border-color: transparent;
+        background-color: $lightred;
+        .navbar-nav> {
+            li {
+                a {
+                    color: $white;
+                    letter-spacing: .15px;
+                    font-size: 16px;
+                    line-height: 168%;
+                    font-weight: lighter;
+                    $contrasted-light-default: $white;
+                    text-shadow: 0px 0px 5px rgba(109, 37, 37, 0.5);
+                    @extend %basefontSecondary;
+                    &:hover {
+                        color: lighten($black, 2);
+                        text-decoration: underline;
+                    } //hover
+                    @include tablet {
+                        font-size: 15px;
+                        letter-spacing: 0;
+                    } //tablet
+                } //a
+            } //li
+        } //navbar-nav
+    } //navvar-default
+    #primary-nav {
+        ul {
+            #nav-home a {
+                i.material-icons {
+                    font-size: 14px;
+                    @extend %googleicons;
+                } //icon
+                @include small {
+                    font-size: 14px;
+                    line-height: 150%;
+                } //small
+            } //nav-home a
+            #nav-one a {
+                i.material-icons {
+                    font-size: 13px;
+                    @extend %googleicons;
+                } //icon
+                @include small {
+                    font-size: 14px;
+                    line-height: 150%;
+                } //small
+            } //nav-one a
+            #nav-two a {
+                i.material-icons {
+                    font-size: 13px;
+                    @extend %googleicons;
+                } //icon
+                @include small {
+                    font-size: 14px;
+                    line-height: 150%;
+                } //small
+            } //nav-two a
+            #nav-three a {
+                i.material-icons {
+                    font-size: 13px;
+                    @extend %googleicons;
+                } //icon
+                @include small {
+                    font-size: 14px;
+                    line-height: 150%;
+                } //small
+            } //nav-three a
+            #nav-four a {
+                i.material-icons {
+                    font-size: 13px;
+                    @extend %googleicons;
+                } //icon
+                @include small {
+                    font-size: 14px;
+                    line-height: 150%;
+                } //small
+            } //nav-four a
+            #nav-five a {
+                i.material-icons {
+                    font-size: 13px;
+                    @extend %googleicons;
+                } //icon
+                @include small {
+                    font-size: 14px;
+                    line-height: 150%;
+                } //small
+            } //nav-five a
+            #nav-six {
+                 @include small {
+                    a.dropdown-toggle {
+                        &:focus {
+                           background-color: lighten($lightred, 3); 
+                       }//focus
+                       &:active {
+                            background-color: lighten($lightred, 3);
+                       }//active
+                       &:visited {
+                            background-color: lighten($lightred, 3);
+                       }
+                        font-size: 14px;
+                        line-height: 150%;
+                    }//a.dropdown-toggle
+                   
+                } //small
+                a b.caret {
+                    margin-left: 5px;
+                } //caret
+                
+                a.dropdown-toggle:visited,
+                a.dropdown-toggle {
+                    background-color: $lightred;
+                }
+                .dropdown-menu>li>a:focus,
+                .dropdown-menu>li>a {
+                    background-color: lighten($lightred, 3);
+                } //dropdown-menu li a focus
+                .nav .open>a:focus {
+                    background-color: lighten($lightred, 3);
+                } //nav open a:focus
+                ul.dropdown-menu {
+                    min-width: 131px;
+                    top: 104%;
+                    background-color: lighten($lightred, 3);
+                    li> {
+                        a {
+                            font-size: 13px;
+                            font-weight: normal;
+                            letter-spacing: .5px;
+                            display: inline-block;
+                            padding-left: 0px;
+                            padding-right: 2px;
+                            vertical-align: middle;
+                            @include keyframes(slide-down);
+                        } //a
+                        span {
+                            i.material-icons {
+                                vertical-align: middle;
+                                margin-left: 3px;
+                                font-size: 13px;
+                            } //i.material-icons
+                        } //span
+                    } //li		
+                } //dropdown-menu
+            } //nav-six a
+        } //ul	
+    } //primary-nav
+} //mainmenu

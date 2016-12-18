@@ -2,85 +2,79 @@
 -------------------------------- */
 
 #mainContent {
-	&:focus {
-		outline: none;
-	}
-	.mainpad {
-
-		margin-bottom:2em;
-	}//mainpad
-	
-	#maintop {
-		
-		#featureBanner {
-			border-bottom: 1px dotted darken($background,12);
-			margin-bottom: 2em;
-			figure#bannerCaption {
-				margin:1.25em 0;
-				background-color: $background;
-				padding:.5em .75em;
-				@include border-radius;
-				
-				p {
-					font-size: 14px;
-					@include small {
-						font-size: 13px;
-					}	
-				}
-				h4 {
-					margin-bottom: .5em;
-					@include small {
-						font-size: 22px;
-						p {
-							font-size: 13px;
-						}
-					}
-					
-				}
-			}//figure
-		}//featureBanner
-
-	}//maintop
-
-	#mainmiddle {
-		
-		.apiarea {
-			margin: 2em 0;
-			.headline > {
-				
-				margin-bottom: .5em;
-				i.material-icons {
-					color:$lightred;
-					font-size: 24px;
-					line-height: 99%;
-					vertical-align: middle;
-				}//material-icons
-
-			}//headline
-
-		}//apiarea
-	}//mainmiddle
-
-	#mainbottom {
-		
-		.apiarea {
-			margin-bottom: 2em;
-			.headline {
-				margin-bottom: .5em;
-				
-				i.material-icons {
-					color:$lightred;
-					font-size: 24px;
-					line-height: 99%;
-					vertical-align: middle;
-				}//material-icons
-			}//headline
-
-		}//apiarea
-	}//mainbottom
-
-}//mainContent
-
-
-
-
+    &:focus {
+        outline: none;
+    }
+    @include small {}
+    .mainpad {
+        margin-bottom: 2em;
+    } //mainpad
+    #maintop {
+        /* im getting rid of 15pad from container */
+        padding:0;
+        #featureBanner {
+            .img-responsive {
+                max-width: 100%;
+                height: auto;
+                margin:0 auto 1.25em;
+           
+            }//img-responsive
+            border-bottom: 1px dotted darken($background, 12);
+            margin-bottom: 2em;
+            figure#bannerCaption {
+               
+                background-color: $background;
+                padding:0 15px;
+                @include border-radius;
+                p {
+                    font-size: 14px;
+                    margin-bottom: 1.2em;
+                    @include small {
+                        font-size: 13px;
+                    }
+                }
+                h4 {
+                    margin-bottom: .5em;
+                    i.material-icons {
+                        vertical-align: text-top;
+                        font-size: 22px;
+                    } //material-icons
+                    @include small {
+                        font-size: 22px;
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            } //figure
+        } //featureBanner
+    } //maintop
+    #mainmiddle {
+        .apiarea {
+            margin: 2em 0;
+            .headline> {
+                margin-bottom: .5em;
+                i.material-icons {
+                    color: $lightred;
+                    font-size: 24px;
+                    line-height: 99%;
+                    vertical-align: middle;
+                } //material-icons
+            } //headline
+        } //apiarea
+    } //mainmiddle
+    #mainbottom {
+        .apiarea {
+            margin-bottom: 2em;
+            .headline {
+                margin-bottom: .5em;
+                i.material-icons {
+                    color: $lightred;
+                    font-size: 24px;
+                    line-height: 99%;
+                    vertical-align: middle;
+                } //material-icons
+            } //headline
+        } //apiarea
+    } //mainbottom
+} //mainContent

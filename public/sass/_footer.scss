@@ -2,132 +2,208 @@
 ----------------------------   */
 
 .footer#mainFooter {
-	padding:0 !important;
-	position: relative;
-	margin-top: -295px;
-	min-height: 295px;
-	clear: both;
-	box-shadow: 0 4px 8px -8px rgba(0,0,0,.2) inset;
-	border-top:1px solid darken($background,15);
-	background-color: $background;
-	#topfoot.container {
-		/* dont add padding!*/
-		#footer-content {
-				h5 {
-					margin-bottom: .75em;
-				}
-			#socialIcons {
-				p {
-					margin-bottom: .75em;	
-					font-size: 13px;
-				}//p
-				a {
-					display: inline-block;
-					margin-left: .5em;
-					max-height: auto;
-					max-width: 55px;
-					font-size: 13px;
-					@include tablet {
-						max-width: 40px;
-						margin-left: 0;
-					}
-				}//a
+    padding: 0 !important;
+    position: relative;
+    margin-top: -295px;
+    min-height: 295px;
+    clear: both;
+    box-shadow: 0 4px 8px -8px rgba(0, 0, 0, .2) inset;
+    border-top: 1px solid darken($background, 15);
+    background-color: $background;
+    #topfoot.container {
+        /* dont add padding!*/
+        #footer-content {
+            h5 {
+                margin-bottom: .75em;
+                @include xsmall {
+                    font-size: 20px;
+                    i.material-icons.md-dark {
+                        font-size: 18px;
+                    }
 
-			}//socialIcons
-			#relatedLinks {
-				a {
-					color:$lightred;
-					text-decoration: underline;
-					font-size: 13px;
-				}//a
-			}//relatedLinks
-			#moreAboutUs {
+                }//xsmall
+            }
+            #socialIcons {
+                p {
+                    margin-bottom: .75em;
+                    font-size: 13px;
+                    @include small {
+                        margin-bottom: 1em;
+                    }//small
+                } //p
+                a {
+                    display: inline-block;
+                    margin-left: .5em;
+                    max-height: auto;
+                    max-width: 55px;
+                    font-size: 13px;
+                    @include small {
+                        max-width: 40px;
+                        margin-left: 0px;
+                        margin-right: .5em;
+                    } //small
+                    @include tablet {
+                        max-width: 40px;
+                        margin-left: 0;
+                    }
+                    @include xsmall {
+                        max-width: 40px;
+                    }//xsmall
+                } //a
+            } //socialIcons
+            #relatedLinks {
+                @include xsmall {
+                    h5 {
+                        font-size:20px;
+                        i.material-icons.md-dark {
+                            font-size: 18px;
+                        }//icons
+                    }//h5   
+                }//xsmall
+                ul.related {
+                    @include xsmall {
+                        span {
+                            display: none;
+                        }//span
+                    }//xsmall
+                    li {
+                        a {
+                            color: $lightred;
+                            text-decoration: underline;
+                            font-size: 13px;
+                            vertical-align: text-bottom;
+                        } //a
 
-			}//moreAboutUs
+                        i.material-icons {
+                            vertical-align: text-top;
+                            font-size: 13px;
+                        } //i.material-icons
 
-			padding-top:2em;
-			.subfoot {
-				margin-bottom: 3em;
-				p {
-					color:lighten($black,7);
-					font-size: 13px;
-				}
-				
-				h5 {
-					.material-icons.md-dark {
-						color:$lightred;
-						font-size: 22px;
-						line-height: 98%;
-						vertical-align: middle;
-					}//material-icons
+                    } //li  
 
-				}//h5
-			}//subfoot
-		}//footer-content
-	}//topfoot.container
+                }//ul.related
+                
+            }//relatedLinks
+                
+            #moreAboutUs {
+                //empty
+            }
+            //moreAboutUs
+            padding-top:2em;
+            .subfoot {
+                margin-bottom: 3em;
+                p {
+                    color: lighten($black, 7);
+                    font-size: 13px;
+                }
+                h5 {
+                    .material-icons.md-dark {
+                        color: $lightred;
+                        font-size: 22px;
+                        line-height: 98%;
+                        vertical-align: middle;
+                        @include tablet {
+                            font-size: 19px;
+                        }//tablet
+                        @include small {
+                            font-size: 18px;
+                        }//small
+                    } //material-icons
+                } //h5
+            } //subfoot
+        } //footer-content
+    } //topfoot.container
+    #botfoot {
+        box-shadow: 0 4px 8px -8px rgba(0, 0, 0, .2) inset;
+        border-top: 1px solid darken($lightred, 7);
+        background-color: $lightred;
+        @include small {}
+        .container {
+            .row {
+                #bottomlogo img {
+                    @include small {
+                        max-width: 60px !important;
+                        display: inline-block;
+                        vertical-align: middle;
 
-	#botfoot {
-		
-		box-shadow: 0 4px 8px -8px rgba(0,0,0,.2) inset;
-		border-top:1px solid darken($lightred,7);
-		background-color: $lightred;
-		.container {
-			
-			.row {
-				#bottomlogo img {
-					@include small {
-						max-width:60px !important;
-					}
-				}//bottomlogo
-				
-				.copyright {
-					text-align: right;
-					vertical-align: middle;
-					line-height: 82px;
-					margin-bottom: 0;
-					font-size: 13px;
-					color:$black;
-					@include small {
-						line-height: 65px;
-						font-size: 12px;
-						vertical-align: middle;
-					}
-					.myself {
-						color:$black;
-						vertical-align: text-top;
-						line-height: 20px;
-						font-size: 13px;
-						@include small {
-							font-size: 12px;
-							line-height: 12px;
-							vertical-align: middle;
-						}
-					}//myself
-				span.braggSection {
-					vertical-align: text-top;
-					line-height: 20px;
-					margin-right: 2.5em;
-					@include small {
-						margin-right:1em;
-					}
-					a.sl {
-						color:$white;
-						font-size: 13px;
-						@include small {
-							font-size: 12px;
-							line-height: 12px;
+                    }//small
+                    @include xsmall {
+                        padding-top: .3em;
+                    }//xsmall
+                } //bottomlogo
+                .copyright {
+                    text-align: right;
+                    vertical-align: middle;
+                    line-height: 82px;
+                    margin-bottom: 0;
+                    font-size: 13px;
+                    color: $black;
+                    @include small {
+                        line-height: 18px;
+                        font-size: 12px;
+                        vertical-align: middle;
+                        padding-top: 20px;
+                        min-height: 30px;
+                    }//small
+                    @include xsmall {
+                        padding-top:10px !important;
+                        line-height: 18px;
+                        font-size: 12px;
+                    }//xsmall
+                    .myself {
+                        color: $black;
+                        vertical-align: text-top;
+                        line-height: 20px;
+                        font-size: 13px;
+                        @include small {
+                            font-size: 12px;
+                            line-height: 18px;
+                            vertical-align: middle;
+                        }//small
+                        @include xsmall {
+                            float:right;
+                        }//xsmall
+                    } //myself
+                    span.braggSection {
+                        vertical-align: text-top;
+                        line-height: 20px;
+                        margin-right: 2.5em;
+                        @include small {
+                            margin-right: 1em;
+                            line-height: 18px;
+                            .city {
+                                float:right;
+                            }//a.city
+                            .year {
+                                float:right;
+                            }//a.year
+                            
+                        }//small
+                        @include xsmall {
+                                .city {
+                                    float:right;
+                                }//city
+                                .year {
+                                    float:right;
+                                }//year
+                        }//xsmall
 
-						}
-					}//a.sl
-				}//braggSection	
-				}//copyright
-			}//row
-		}//container
+                        a.sl {
+                            color: $white;
+                            font-size: 13px;
+                            @include small {
+                                font-size: 12px;
+                                line-height: 12px;
+                            }//small
+                            @include xsmall {
+                                margin-left:.3em; 
+                               
+                            }//xsmall
 
-	}//botfoot
-
-
-
-
-}//footer
-
+                        } //a.sl
+                    } //braggSection	
+                } //copyright
+            } //row
+        } //container
+    } //botfoot
+} //footer

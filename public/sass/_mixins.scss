@@ -120,10 +120,19 @@ Media Queries
 
 --------------------------------- */
 
-$extraSmall: 320px;
+$extraSmall: 380px;
 $small:768px;
 $medium:992px;
 $large:1200px;
+
+
+/* 320 under */
+@mixin xsmall {
+  @media (max-width: #{$extraSmall})  {
+    @content;
+  }
+}
+
 
 
 /* 320 - 767 */
