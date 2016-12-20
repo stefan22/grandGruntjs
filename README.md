@@ -22,6 +22,8 @@
 - so to download just do git clone -no need to npm/bower/bundler anything -  then run grunt on terminal to load page
   to browser.
 
+- reset branch, fixed merge conflicts - ok
+
 
 <hr />
   
