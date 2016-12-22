@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,15 +7,16 @@
     <title>Magic Mountain</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css?rel=1482190561173">
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css?rel=1482425634815">
     <!-- google material icons   -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="public/builds/css/styles.css?rel=1482190561173">
+    <link rel="stylesheet" type="text/css" href="public/builds/css/styles.css?rel=1482425634815">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+    
 </head>
 
 <body class="home">
@@ -38,10 +39,8 @@
             <!-- end of top   -->
             <!--  brandbanner   -->
             <div id="brandbanner">
-                <div class="container">
-                    <!--  blue stripe all across   -->
-                </div>
-                <!--  end of div container   -->
+                
+                    
             </div>
             <!--  end of div brandbanner   -->
 
@@ -50,7 +49,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-md-3" id="logo">
                             <!--  logo   -->
-                            <a href="#" title="MrJenkins">
+                            <a href="#" title="MrJenkins" onClick="nanobar.go(100)">
                                 <img class="img-responsive" src="public/builds/assets/images/jenkinslogo.png" alt="MrJenkins" width="100%" style="
                         max-width: 230px; height:auto;display: block;">
                             </a>
@@ -85,27 +84,29 @@
                             <div role="navigation">
                                 <div id="primary-nav">
                                     <ul class="nav navbar-nav" aria-label="primary navigation">
+                                        
                                         <li id="nav-home">
-                                            <a href="#">
+                                            <a href="#" onClick="menubar.go(8.7)">
                                                 <i class="material-icons">home&nbsp;</i>Home</a>
                                         </li>
+                                        
                                         <li id="nav-one">
-                                            <a href="#">
+                                            <a href="#" onClick="menubar.go(19.4)">
                                                 <i class="material-icons">date_range&nbsp;</i>All Rides</a>
                                         </li>
                                         <li id="nav-two">
-                                            <a href="#">
+                                            <a href="#" onClick="menubar.go(28.4)">
                                                 <i class="material-icons">assessment&nbsp;</i>Events</a>
                                         </li>
                                         <li id="nav-three">
-                                            <a href="#">
+                                            <a href="#" onClick="menubar.go(40.7)">
                                                 <i class="material-icons">event&nbsp;</i>Park Hours</a>
                                         </li>
-                                        <li id="nav-four">
+                                        <li id="nav-four" onClick="menubar.go(50.1)">
                                             <a href="#">
                                                 <i class="material-icons">loyalty&nbsp;</i>Tickets</a>
                                         </li>
-                                        <li id="nav-six">
+                                        <li id="nav-six" onClick="menubar.go(62.1)">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                         Dropdown <b class="caret"></b>
                                     </a>
@@ -125,6 +126,7 @@
 
                                             </ul>
                                         </li>
+                                        
                                     </ul>
                                 </div>
                                 <!--  end of div primary-nav   -->
@@ -288,9 +290,22 @@
     <!--  end of mainFooter   -->
     <!-- END footer -->
 
-    <script src="/bower_components/jquery/dist/jquery.js?rel=1482190561173"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.js?rel=1482190561173"></script>
-    <script src="/public/builds/js/scripts.min.js?rel=1482190561174"></script>
+    <script src="/bower_components/jquery/dist/jquery.js?rel=1482425634815"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js?rel=1482425634815"></script>
+    <script src="/public/builds/js/scripts.min.js?rel=1482425634815"></script>
+    <script src="bower_components/nanobar/nanobar.min.js"></script>
+    <script><!-- 219b / 4ms very light and pretty cool -->
+        var nanobar = new Nanobar();
+        nanobar.go(100);
+
+        var menubar = new Nanobar({
+            target: document.getElementById('primary-nav')
+        });
+        <!-- width 61 -->
+        menubar.go();
+
+       
+    </script>
 </body>
 
 </html>
