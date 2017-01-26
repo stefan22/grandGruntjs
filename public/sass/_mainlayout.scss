@@ -5,7 +5,7 @@ body {
 	
 	height: 100%;
 	font-family: $font-secondary;
-	
+	overflow: hidden;
 	font-size: 14px;
 	line-height: 150%;
 	margin:0;
@@ -13,8 +13,8 @@ body {
 		min-height: 100%;
 		overflow-x: hidden;
 		#wrapper {
-			overflow: visible;
-			padding-bottom: 330px;
+			
+			padding-bottom: 450px;
 			#top {
 				background-color: $blue;
 				color: $blue;

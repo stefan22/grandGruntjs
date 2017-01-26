@@ -15,6 +15,7 @@
   "dependencies": {
     "jquery": "^3.1.1",
     "bootstrap": "^3.3.7",
-    "material-design-icons": "^3.0.1"
+    "material-design-icons": "^3.0.1",
+    "nanobar": "^0.4.2"
   }
 }

@@ -3,8 +3,11 @@
 
 .footer#mainFooter {
     padding: 0 !important;
-    position: relative;
-    margin-top: -295px;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    margin-top: -250px;
     min-height: 295px;
     clear: both;
     box-shadow: 0 4px 8px -8px rgba(0, 0, 0, .2) inset;
@@ -39,7 +42,7 @@
                     font-size: 13px;
                     @include small {
                         max-width: 40px;
-                        margin-left: 0px;
+                        margin-left: 0;
                         margin-right: .5em;
                     } //small
                     @include tablet {
@@ -114,6 +117,7 @@
         } //footer-content
     } //topfoot.container
     #botfoot {
+        
         box-shadow: 0 4px 8px -8px rgba(0, 0, 0, .2) inset;
         border-top: 1px solid darken($lightred, 7);
         background-color: $lightred;
