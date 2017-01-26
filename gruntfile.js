@@ -9,11 +9,11 @@ module.exports = function(grunt) {
             match: [
               'bootstrap.css', 'reset.css','styles.css',
               'jquery.js','bootstrap.js','scripts.min.js',
-              'index.html'
+              'index.php'
             ]
           },
           files: {
-            src: ['index.html']
+            src: 'index.php'
           }
         } //dev
       }, // cachebreaker
@@ -23,13 +23,15 @@ module.exports = function(grunt) {
           all_css: ['.sass-cache/'],
           //before generating any new files, remove any previously-created
           //html files
-          test: ['public/builds/index.html']
+          test: 'public/builds/index.php'
       }, //clean
 
       copy: {
         single: {
           files: [{
-            src: ['index.html'], dest: 'public/builds/index.html'
+            src:  'index.php', 
+            dest: 'public/builds/index.php'
+                  
           }]
         }  
       }, //copy
@@ -145,7 +147,7 @@ module.exports = function(grunt) {
         html: {
           //runs clean and then copy
           //cachebreakers gives me 200s & 304s everytime
-          files: 'index.html',
+          files: 'index.php',
           tasks: ['clean:test', 'cachebreaker', 'copy']
         
         },//html
