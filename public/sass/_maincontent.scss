@@ -2,6 +2,7 @@
 -------------------------------- */
 
 #mainContent {
+    margin:0 1.5em;
     &:focus {
         outline: none;
     }
@@ -49,7 +50,8 @@
             } //figure
         } //featureBanner
     } //maintop
-    #mainmiddle {
+    #mainmiddle1, #mainmiddle2 {
+        
         .apiarea {
             margin: 2em 0;
             .headline> {

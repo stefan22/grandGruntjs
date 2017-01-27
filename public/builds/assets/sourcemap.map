@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"scripts.min.js"}
+{"version":3,"sources":["../../js/scripts.js"],"names":["footersYear","today","Date","year","getFullYear","document","getElementById","textContent"],"mappings":";;;CAAA,WAEA,GAAIA,GAAc,WACjB,GAAIC,GAAQ,GAAIC,MACZC,EAAOF,EAAMG,aACjBC,UAASC,eAAe,SAASC,YAAcJ,EAGhDH","file":"scripts.min.js"}

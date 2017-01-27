@@ -350,6 +350,7 @@ body #mainWrapper {
 }
 /* line 15, ../../sass/_mainlayout.scss */
 body #mainWrapper #wrapper {
+  box-shadow: inset 0px 5px 7px 0px rgba(127, 18, 10, 0.55);
   padding-bottom: 450px;
 }
 /* line 18, ../../sass/_mainlayout.scss */
@@ -439,9 +440,8 @@ header#header #brandz h3 {
   max-height: 450px;
   /* 72px;*/
   background: #a62319;
-  border-bottom: 2px solid #8c251d;
-  margin-bottom: 1px;
-  box-shadow: 0 0 0 1px rgba(206, 202, 196, 0.85);
+  border-bottom: 2px solid #841b13;
+  box-shadow: 0px 0px 1px 1px rgba(179, 43, 32, 0.4);
 }
 /* line 65, ../../sass/_navlayout.scss */
 #mainmenu .navbar {
@@ -661,31 +661,35 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
 
 /*  maincontent
 -------------------------------- */
-/* line 5, ../../sass/_maincontent.scss */
+/* line 4, ../../sass/_maincontent.scss */
+#mainContent {
+  margin: 0 1.5em;
+}
+/* line 6, ../../sass/_maincontent.scss */
 #mainContent:focus {
   outline: none;
 }
-/* line 9, ../../sass/_maincontent.scss */
+/* line 10, ../../sass/_maincontent.scss */
 #mainContent .mainpad {
   margin-bottom: 2em;
 }
-/* line 12, ../../sass/_maincontent.scss */
+/* line 13, ../../sass/_maincontent.scss */
 #mainContent #maintop {
   /* im getting rid of 15pad from container */
   padding: 0;
 }
-/* line 15, ../../sass/_maincontent.scss */
+/* line 16, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner {
   border-bottom: 1px dotted #ebf0c2;
   margin-bottom: 2em;
 }
-/* line 16, ../../sass/_maincontent.scss */
+/* line 17, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner .img-responsive {
   max-width: 100%;
   height: auto;
   margin: 0 auto 1.25em;
 }
-/* line 24, ../../sass/_maincontent.scss */
+/* line 25, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption {
   background-color: #fbfcf3;
   padding: 0 15px;
@@ -693,60 +697,60 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 29, ../../sass/_maincontent.scss */
+/* line 30, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption p {
   font-size: 14px;
   margin-bottom: 1.2em;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 29, ../../sass/_maincontent.scss */
+  /* line 30, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption p {
     font-size: 13px;
   }
 }
-/* line 36, ../../sass/_maincontent.scss */
+/* line 37, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption h4 {
   margin-bottom: .5em;
 }
-/* line 38, ../../sass/_maincontent.scss */
+/* line 39, ../../sass/_maincontent.scss */
 #mainContent #maintop #featureBanner figure#bannerCaption h4 i.material-icons {
   vertical-align: text-top;
   font-size: 22px;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 36, ../../sass/_maincontent.scss */
+  /* line 37, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption h4 {
     font-size: 22px;
   }
-  /* line 44, ../../sass/_maincontent.scss */
+  /* line 45, ../../sass/_maincontent.scss */
   #mainContent #maintop #featureBanner figure#bannerCaption h4 p {
     font-size: 13px;
   }
 }
-/* line 53, ../../sass/_maincontent.scss */
-#mainContent #mainmiddle .apiarea {
+/* line 55, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle1 .apiarea, #mainContent #mainmiddle2 .apiarea {
   margin: 2em 0;
 }
-/* line 55, ../../sass/_maincontent.scss */
-#mainContent #mainmiddle .apiarea .headline > {
+/* line 57, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle1 .apiarea .headline >, #mainContent #mainmiddle2 .apiarea .headline > {
   margin-bottom: .5em;
 }
-/* line 57, ../../sass/_maincontent.scss */
-#mainContent #mainmiddle .apiarea .headline > i.material-icons {
+/* line 59, ../../sass/_maincontent.scss */
+#mainContent #mainmiddle1 .apiarea .headline > i.material-icons, #mainContent #mainmiddle2 .apiarea .headline > i.material-icons {
   color: #a62319;
   font-size: 24px;
   line-height: 99%;
   vertical-align: middle;
 }
-/* line 67, ../../sass/_maincontent.scss */
+/* line 69, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea {
   margin-bottom: 2em;
 }
-/* line 69, ../../sass/_maincontent.scss */
+/* line 71, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline {
   margin-bottom: .5em;
 }
-/* line 71, ../../sass/_maincontent.scss */
+/* line 73, ../../sass/_maincontent.scss */
 #mainContent #mainbottom .apiarea .headline i.material-icons {
   color: #a62319;
   font-size: 24px;
@@ -767,43 +771,44 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   min-height: 295px;
   clear: both;
   box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
-  border-top: 1px solid #e7edb6;
+  box-shadow: 5px 3px 5px 2px rgba(15, 16, 2, 0.7);
+  border-top: 1px solid #969595;
   background-color: #fbfcf3;
 }
-/* line 16, ../../sass/_footer.scss */
+/* line 17, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container {
   /* dont add padding!*/
 }
-/* line 18, ../../sass/_footer.scss */
+/* line 19, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content {
   padding-top: 2em;
 }
-/* line 19, ../../sass/_footer.scss */
+/* line 20, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content h5 {
   margin-bottom: .75em;
 }
 @media (max-width: 380px) {
-  /* line 19, ../../sass/_footer.scss */
+  /* line 20, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content h5 {
     font-size: 20px;
   }
-  /* line 23, ../../sass/_footer.scss */
+  /* line 24, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content h5 i.material-icons.md-dark {
     font-size: 18px;
   }
 }
-/* line 30, ../../sass/_footer.scss */
+/* line 31, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content #socialIcons p {
   margin-bottom: .75em;
   font-size: 13px;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 30, ../../sass/_footer.scss */
+  /* line 31, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #socialIcons p {
     margin-bottom: 1em;
   }
 }
-/* line 37, ../../sass/_footer.scss */
+/* line 38, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
   display: inline-block;
   margin-left: .5em;
@@ -812,7 +817,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   font-size: 13px;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 37, ../../sass/_footer.scss */
+  /* line 38, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
     max-width: 40px;
     margin-left: 0;
@@ -820,56 +825,56 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../../sass/_footer.scss */
+  /* line 38, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
     max-width: 40px;
     margin-left: 0;
   }
 }
 @media (max-width: 380px) {
-  /* line 37, ../../sass/_footer.scss */
+  /* line 38, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #socialIcons a {
     max-width: 40px;
   }
 }
 @media (max-width: 380px) {
-  /* line 59, ../../sass/_footer.scss */
+  /* line 60, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #relatedLinks h5 {
     font-size: 20px;
   }
-  /* line 61, ../../sass/_footer.scss */
+  /* line 62, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #relatedLinks h5 i.material-icons.md-dark {
     font-size: 18px;
   }
 }
 @media (max-width: 380px) {
-  /* line 68, ../../sass/_footer.scss */
+  /* line 69, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content #relatedLinks ul.related span {
     display: none;
   }
 }
-/* line 73, ../../sass/_footer.scss */
+/* line 74, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content #relatedLinks ul.related li a {
   color: #a62319;
   text-decoration: underline;
   font-size: 13px;
   vertical-align: text-bottom;
 }
-/* line 80, ../../sass/_footer.scss */
+/* line 81, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content #relatedLinks ul.related li i.material-icons {
   vertical-align: text-top;
   font-size: 13px;
 }
-/* line 96, ../../sass/_footer.scss */
+/* line 97, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content .subfoot {
   margin-bottom: 3em;
 }
-/* line 98, ../../sass/_footer.scss */
+/* line 99, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content .subfoot p {
   color: #121212;
   font-size: 13px;
 }
-/* line 103, ../../sass/_footer.scss */
+/* line 104, ../../sass/_footer.scss */
 .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
   color: #a62319;
   font-size: 22px;
@@ -877,25 +882,27 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   vertical-align: middle;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 103, ../../sass/_footer.scss */
+  /* line 104, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
     font-size: 19px;
   }
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 103, ../../sass/_footer.scss */
+  /* line 104, ../../sass/_footer.scss */
   .footer#mainFooter #topfoot.container #footer-content .subfoot h5 .material-icons.md-dark {
     font-size: 18px;
   }
 }
-/* line 119, ../../sass/_footer.scss */
+/* line 120, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot {
-  box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: -2px 1px 5px 0px #4d0702;
+  border-top: 1px solid #871c14;
+  background-color: #a62319;
   border-top: 1px solid #871c14;
   background-color: #a62319;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 127, ../../sass/_footer.scss */
+  /* line 130, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row #bottomlogo img {
     max-width: 60px !important;
     display: inline-block;
@@ -903,12 +910,12 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   }
 }
 @media (max-width: 380px) {
-  /* line 127, ../../sass/_footer.scss */
+  /* line 130, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row #bottomlogo img {
     padding-top: .3em;
   }
 }
-/* line 138, ../../sass/_footer.scss */
+/* line 141, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright {
   text-align: right;
   vertical-align: middle;
@@ -918,7 +925,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   color: #000000;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 138, ../../sass/_footer.scss */
+  /* line 141, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright {
     line-height: 18px;
     font-size: 12px;
@@ -928,14 +935,14 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   }
 }
 @media (max-width: 380px) {
-  /* line 138, ../../sass/_footer.scss */
+  /* line 141, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright {
     padding-top: 10px !important;
     line-height: 18px;
     font-size: 12px;
   }
 }
-/* line 157, ../../sass/_footer.scss */
+/* line 160, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright .myself {
   color: #000000;
   vertical-align: text-top;
@@ -943,7 +950,7 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   font-size: 13px;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 157, ../../sass/_footer.scss */
+  /* line 160, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright .myself {
     font-size: 12px;
     line-height: 18px;
@@ -951,56 +958,56 @@ body #mainWrapper #wrapper #top #skip #mainmenu #primary-nav ul #nav-six .dropdo
   }
 }
 @media (max-width: 380px) {
-  /* line 157, ../../sass/_footer.scss */
+  /* line 160, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright .myself {
     float: right;
   }
 }
-/* line 171, ../../sass/_footer.scss */
+/* line 174, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright span.braggSection {
   vertical-align: text-top;
   line-height: 20px;
   margin-right: 2.5em;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 171, ../../sass/_footer.scss */
+  /* line 174, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection {
     margin-right: 1em;
     line-height: 18px;
   }
-  /* line 178, ../../sass/_footer.scss */
+  /* line 181, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection .city {
     float: right;
   }
-  /* line 181, ../../sass/_footer.scss */
+  /* line 184, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection .year {
     float: right;
   }
 }
 @media (max-width: 380px) {
-  /* line 187, ../../sass/_footer.scss */
+  /* line 190, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection .city {
     float: right;
   }
-  /* line 190, ../../sass/_footer.scss */
+  /* line 193, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection .year {
     float: right;
   }
 }
-/* line 195, ../../sass/_footer.scss */
+/* line 198, ../../sass/_footer.scss */
 .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
   color: #f7f7f7;
   font-size: 13px;
 }
 @media (min-width: 380px) and (max-width: 767px) {
-  /* line 195, ../../sass/_footer.scss */
+  /* line 198, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
     font-size: 12px;
     line-height: 12px;
   }
 }
 @media (max-width: 380px) {
-  /* line 195, ../../sass/_footer.scss */
+  /* line 198, ../../sass/_footer.scss */
   .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:active, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:active, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:visited, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:visited, .footer#mainFooter #botfoot .container .row .copyright span.braggSection body #mainWrapper #wrapper #top #skip a.sl:hover, body #mainWrapper #wrapper #top #skip .footer#mainFooter #botfoot .container .row .copyright span.braggSection a.sl:hover {
     margin-left: .3em;
   }

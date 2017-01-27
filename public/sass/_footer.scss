@@ -4,15 +4,16 @@
 .footer#mainFooter {
     padding: 0 !important;
     position: absolute;
-    left:0;
-    bottom:0;
+    left: 0;
+    bottom: 0;
     width: 100%;
     margin-top: -250px;
     min-height: 295px;
     clear: both;
-    box-shadow: 0 4px 8px -8px rgba(0, 0, 0, .2) inset;
-    border-top: 1px solid darken($background, 15);
-    background-color: $background;
+    box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 5px 3px 5px 2px rgba(15, 16, 2, 0.7);
+    border-top: 1px solid rgb(150, 149, 149);
+    background-color: #fbfcf3;
     #topfoot.container {
         /* dont add padding!*/
         #footer-content {
@@ -118,7 +119,9 @@
     } //topfoot.container
     #botfoot {
         
-        box-shadow: 0 4px 8px -8px rgba(0, 0, 0, .2) inset;
+        box-shadow: -2px 1px 5px 0px #4d0702;
+        border-top: 1px solid #871c14;
+        background-color: #a62319;
         border-top: 1px solid darken($lightred, 7);
         background-color: $lightred;
         @include small {}
