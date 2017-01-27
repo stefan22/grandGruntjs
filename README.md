@@ -27,8 +27,8 @@
   
   <br />
   
-  sixFlags desktop - click to zoom-in (100%)
-  ![sixFlags desktop](sixFlagsDesktop.png?raw=true "desktop" target="_blank")
+  <kbd>3x1x8_gridTemplate</kbd> click to zoom-in (100%)
+  ![3x1x8_gridTemplate](imgscreenshots/gridtemplate.png?raw=true "desktop" target="_blank")
   
   
   
@@ -36,87 +36,4 @@
   
   <br />
   
-  sixFlags iphone6 - see nexus sc3 for footer
-  ![sixFlags mobile](iphone6plus.png?raw=true "mobile" target="_blank")
-  
-  
-  <hr />
-  
-  <br />
-  
-  nexus sc1 
-  ![sixFlags mobile](nexus_screenshot.png?raw=true "mobile" target="_blank")
-  
-  <hr />
-  
-  <br />
-  
-  nexus sc2
-  ![sixFlags mobile](nexus_mid.png?raw=true "mobile" target="_blank")
-  
-  <hr />
-  
-  <br />
-  
-  nexus sc3 -iphone6 footer 
-  ![sixFlags mobile](nexus_footer.png?raw=true "mobile" target="_blank")
-  
-  
-  
-  <hr />
-  
-  <br />
-  
-  galaxy S5 top
-  ![sixFlags mobile](Screen Shot 2016-12-18 at 2.15.12 am.png?raw=true "mobile" target="_blank")
-  
-  
-  <hr />
-  
-  <br />
-  
-  galaxy S5 mid
-  ![sixFlags mobile](Screen Shot 2016-12-18 at 2.15.25 am.png?raw=true "mobile" target="_blank")
-  
-  
-  <hr />
-  
-  <br />
-  
-  galaxy S5 footer
-  ![sixFlags mobile](galaxys5footer.png?raw=true "mobile" target="_blank")
-  
-  
-  
-  
-  
-
-
-
-
-<hr />
-  
-  <br />
-  
-  @mixin tablet
-  ![tablet](screenshot-tablet.png?raw=true "tablet" target="_blank")
-  
-  
-  <hr />
-  
-  <br />
-  
-  over 1200px
-  ![desktop](screenshot-over1200.png?raw=true "desktop")
-  
-
-
-
  
-
-
-
-
-
-
-
