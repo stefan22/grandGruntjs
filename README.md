@@ -1,8 +1,8 @@
 ### grandGruntjs, SPA
 - updated Gruntfile.js, package.json,bower.json,config.rb and Gemfile 
 - rebuild navigation, and made some changes to page layout.
-- added skip navigation with javascript(when navigation comes before main content)
-- sticky footer/ js screen resize
+- added js skip navigation (when navigation comes before main content)
+- sticky footer/ js screen resize dom event
 - added partials w/compass
 - added secondary font/ moved google fonts to sass folders.
 - git clone then run grunt on terminal to load page to browser
