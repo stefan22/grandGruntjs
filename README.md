@@ -1,29 +1,11 @@
-### grandGruntjs, is a SPA using bootstrap, sass, npm, bower, grunt, package.json, and JavaScript
-
-### dest folder is => public/builds/
-
-### new startup-page for workfolder
-> this time to include sass ready files.
-
-
-- removed angular(for this project), and suzy(forever)
+### grandGruntjs, SPA
 - updated Gruntfile.js, package.json,bower.json,config.rb and Gemfile 
 - rebuild navigation, and made some changes to page layout.
-- added some html5 elements
-- added skip navigation with javascript(recommended when navigation
-  comes before main content)
-- sticky footer classes for short pages and a javascript function,in 
-  case for some reason it stops working on screen resizing.
-- added a few partials, compass mixes for a more modular look :)
-- added a secondary font and moved google fonts from index page to 
-  sass folders.
-- adding all of the files (cause if you clone this folder and then run npm etc... and don't have latest RVN files 
-  installed, then you need to update prior to running grunt)
-- so to download just do git clone -no need to npm/bower/bundler anything -  then run grunt on terminal to load page
-  to browser.
-
-- reset branch, fixed merge conflicts - ok
-
+- added skip navigation with javascript(when navigation comes before main content)
+- sticky footer/ js screen resize
+- added partials w/compass
+- added secondary font/ moved google fonts to sass folders.
+- git clone then run grunt on terminal to load page to browser
 
 <hr />
   
