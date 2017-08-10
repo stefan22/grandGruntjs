@@ -46,13 +46,7 @@
   ![sixFlags mobile](nexus_footer.png)
   
   
-  
-  <hr />
-  
-  <br />
-  
-  galaxy S5 top
-  ![sixFlags mobile](Screen Shot 2016-12-18 at 2.15.12 am.png)
+
   
   
   <hr />
